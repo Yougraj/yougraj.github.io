@@ -18,7 +18,7 @@ NixOS is a Linux distribution renowned for its unique approach to package manage
         ```bash
         sudo su
         ```
-    * Follow the flow chart given bellow for disk partitioning
+    * Follow the flowchart given bellow for disk partitioning
         ```mermaid
                 
         %%{
