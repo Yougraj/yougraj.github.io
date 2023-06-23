@@ -1,0 +1,74 @@
+title = "Takara"
+baseURL = ''
+languageCode = 'en-us'
+theme = "hugo-blog-awesome"
+defaultContentLanguage = "en-gb"
+googleAnalytics = ''
+enableEmoji = true
+ignoreErrors = ["additional-script-loading-error"]
+disqusShortname = ''
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+	[markup.tableOfContents]
+		startLevel = 2
+		endLevel = 4 
+		ordered = false 
+
+[menu]
+  [[menu.main]]
+    pageRef="/"
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    pageRef="posts"
+    name = 'Posts'
+    url = '/posts/'
+    weight = 20
+  [[menu.main]]
+    pageRef="Tech"
+    name = 'Tech'
+    url = '/tech/'
+    weight = 30
+  [[menu.main]]
+    pageRef="about"
+    name = 'About'
+    url = '/about/'
+    weight = 40
+  
+[params]
+  sitename = "Takara"
+  defaultColor = "dark" # set color mode: dark, light, auto
+  description = "Linux, some tech things or sometime just anything "
+  toc = false # set to false to disable table of contents 'globally'
+
+[params.author]
+  avatar = "avatar.jpg"
+  intro = "Takara"
+  name = "Yougraj"
+  description = "Linux, some tech things or sometime just anything"
+[params.webmanifest]
+  name = "Takara"
+  short_name = "Takara"
+  start_url = "/" # will use homepage url by default
+  theme_color = "#434648"
+  background_color = "#fff" 
+  display = "standalone"
+
+[params.browserconfig]
+  TileColor = "#2d89ef"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/yougraj"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/@yougrajb"
+
+[[params.socialIcons]]
+name = "Rss"
+url = "index.xml"
