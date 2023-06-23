@@ -157,6 +157,38 @@ stroke-linejoin="round" class="feather feather-home">
 </span></span></code></pre></div></li>
 <li>Follow the flow chart given bellow for disk partitioning
 <div class="mermaid">
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#C1BDDB',
+      'primaryTextColor': '#000',
+      'primaryBorderColor': '#35C4B6',
+      'lineColor': '#58FCEC',
+      'secondaryColor': '#006100',
+      'tertiaryColor': '#fff'
+    }
+  }
+}%%
+flowchart LR
+A[cfdisk] --> B{select 'gpt' option}    
+B --> C("`select the free space`")    
+C --> D{"`make 3 partition
+
+.`"}
+D --> E("`make '600M' partion type 
+is 'EFI System'`")
+D --> root("`Give space as much as 
+you want storage for 
+making root directory 
+type would be 'linux file system'   .
+
+.`")
+D --> swap("`Last you have to give 
+all left space to swap partition 
+give double of you ram size
+
+.`")
 </div>
 
 </li>
@@ -188,6 +220,10 @@ Mount the Root partion
 <h2 id="post-installation-configuration">Post-Installation Configuration</h2>
 <p>Once you&rsquo;re logged into NixOS, you can further customize your system by modifying the NixOS configuration file (<code>/etc/nixos/configuration.nix</code>). Make any desired changes and run <code>sudo nixos-rebuild switch</code> to apply the new configuration.</p>
 <p>That&rsquo;s it! You now have NixOS installed on your computer. Remember that NixOS has a unique approach to package management and system configuration, so it may take some time to familiarize yourself with its concepts and workflows. The NixOS <a href="https://nixos.org/manual/nixos/stable">documentation</a> is an excellent resource for further exploration and understanding of the distribution.</p>
+<script type="module">
+import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+mermaid.initialize({ startOnLoad: true });
+</script>
 
             </div>
         </article></main>
