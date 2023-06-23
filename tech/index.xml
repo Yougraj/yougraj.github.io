@@ -6,7 +6,16 @@
     <description>Recent content in Writing Tech Things on Takara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Jun 2023 19:19:46 +0530</lastBuildDate><atom:link href="/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Jun 2023 16:53:40 +0530</lastBuildDate><atom:link href="/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nixos Installation Guide</title>
+      <link>/tech/nixos-installation/</link>
+      <pubDate>Fri, 23 Jun 2023 16:53:40 +0530</pubDate>
+      
+      <guid>/tech/nixos-installation/</guid>
+      <description>What is NixOs NixOS is a Linux distribution renowned for its unique approach to package management and system configuration. It employs a purely functional package management system that ensures reproducibility and eliminates version conflicts. System configuration is achieved through declarative means, where the desired state of the system is described in a configuration file using the functional programming language Nix. This enables atomic upgrades and rollbacks of the entire system configuration.</description>
+    </item>
+    
     <item>
       <title>How to install Arch linux</title>
       <link>/tech/arch-installation-guide/</link>

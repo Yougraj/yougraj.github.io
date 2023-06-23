@@ -3,11 +3,11 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">Yougraj Bora | Takara</title>
-<meta property="og:title" content="Yougraj Bora | Takara" />
-<meta name="twitter:title" content="Yougraj Bora | Takara" />
-<meta itemprop="name" content="Yougraj Bora | Takara" />
-<meta name="application-name" content="Yougraj Bora | Takara" />
+<title itemprop="name">Nixos Installation Guide | Takara</title>
+<meta property="og:title" content="Nixos Installation Guide | Takara" />
+<meta name="twitter:title" content="Nixos Installation Guide | Takara" />
+<meta itemprop="name" content="Nixos Installation Guide | Takara" />
+<meta name="application-name" content="Nixos Installation Guide | Takara" />
 <meta property="og:site_name" content="Takara" />
 
 <meta name="description" content="Linux, some tech things or sometime just anything ">
@@ -33,9 +33,7 @@
 
     
 
-    <link rel="canonical" href="/">
-    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Takara">
-    <link href="/index.xml" rel="feed" type="application/rss+xml" title="Takara">
+    <link rel="canonical" href="/tech/nixos-installation/">
     <link href="/style.min.d16f523c36741e07697791cfe4bcb09b8c92c7034d5cbf85980df65d92a70e97.css" rel="stylesheet">
     <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
@@ -60,7 +58,7 @@
 
     
     </head>
-<body data-theme="dark" class="notransition">
+<body data-theme = "dark" class="notransition">
 
 <script src="/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js" integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script>
 
@@ -101,7 +99,7 @@ stroke-linejoin="round" class="feather feather-home">
                 </li>
                 
                 <li>
-                    <a class="menu-link " href="/tech/">
+                    <a class="menu-link active" href="/tech/">
                         Tech
                     </a>
                     
@@ -127,53 +125,74 @@ stroke-linejoin="round" class="feather feather-home">
         </div>
     </nav>
 </div>
-<div class="wrapper">
-        
 
-
-<div class="author">
-    
-    
-    <img class="author-avatar" src="/avatar_hu9f448f8294dad649b4a67ba454ce766a_6672_100x100_fill_q75_h2_box_smart1.webp" alt="Yougraj" width="200"
-        height="252" />
-    
-    <h2 class="author-name">Takara</h2>
-    <p class="author-bio">Linux, some tech things or sometime just anything</p>
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Nixos Installation Guide</h1>
+                
+                <div class="post-meta">
+                    <time datetime="2023-06-23T16:53:40&#43;05:30" itemprop="datePublished"> 23 Jun 2023 </time>
+                </div>
+            </header><div class="page-content">
+                <h1 id="what-is-nixos">What is NixOs</h1>
+<p>NixOS is a Linux distribution renowned for its unique approach to package management and system configuration. It employs a purely functional package management system that ensures reproducibility and eliminates version conflicts. System configuration is achieved through declarative means, where the desired state of the system is described in a configuration file using the functional programming language Nix. This enables atomic upgrades and rollbacks of the entire system configuration. With NixOS, users gain a highly reliable and customizable Linux distribution that provides a consistent and reproducible environment.</p>
+<h2 id="heres-a-step-by-step-guide-to-installing-nixos">Here&rsquo;s a step-by-step guide to installing NixOS:</h2>
+<ol>
+<li>
+<p><strong>Download the NixOS Installation ISO</strong>: Visit the official NixOS website (<a href="https://nixos.org">https://nixos.org</a>) and navigate to the &ldquo;Download&rdquo; section. Choose the appropriate ISO file for your system architecture and download it.</p>
+</li>
+<li>
+<p><strong>Create a Bootable USB Drive</strong>: Use a tool like Rufus (for Windows) or Etcher (for macOS and Linux) to create a bootable USB drive from the downloaded ISO file. This USB drive will be used to install NixOS.</p>
+</li>
+<li>
+<p><strong>Boot from the USB Drive</strong>: Insert the bootable USB drive into your computer and restart it. Access the BIOS or UEFI settings and configure your system to boot from the USB drive. Save the changes and restart your computer again.</p>
+</li>
+<li>
+<p><strong>Start the NixOS Installation</strong>:</p>
+<ul>
+<li>Enter into the root environment
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo su
+</span></span></code></pre></div></li>
+<li>Follow the flow chart given bellow for disk partitioning
+<div class="mermaid">
 </div>
 
-        <main aria-label="Content">
-            <h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
-            
-            
-            
-            
-            <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/tech/nixos-installation/">Nixos Installation Guide</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2023-06-23T16:53:40&#43;0530">
-        23 Jun 2023
-    </time>
-</article>
+</li>
+<li>Changing the file system
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkfs.fat -F <span class="m">32</span> -n boot /dev/sda2 <span class="c1"># EFI system</span>
+</span></span><span class="line"><span class="cl">mkfs.ext4 -L nixos /dev/sda1 <span class="c1">#Root partion </span>
+</span></span><span class="line"><span class="cl">mkswap -L swap /dev/sda3 <span class="c1">#swap partition</span>
+</span></span></code></pre></div>If you wana see you disk name <code>lablk</code></li>
+<li>Let&rsquo;s mount the system
+Mount the Root partion
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mount /dev/disk/by-label/nixos /mnt 
+</span></span></code></pre></div>Mount the UEFI system
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkdir -p /mnt/boot
+</span></span><span class="line"><span class="cl">mount /dev/disk/by-label/boot /mnt/boot
+</span></span></code></pre></div>Now on swap
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">swapon /dev/sda3
+</span></span></code></pre></div></li>
+<li>Now you have to generate nixos config
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nixos-generate-config --root /mnt
+</span></span></code></pre></div></li>
+<li>Your system is ready now just one thing to go
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nixos-install
+</span></span><span class="line"><span class="cl"><span class="c1"># then</span>
+</span></span><span class="line"><span class="cl">reboot
+</span></span></code></pre></div></li>
+</ul>
+</li>
+</ol>
+<h2 id="post-installation-configuration">Post-Installation Configuration</h2>
+<p>Once you&rsquo;re logged into NixOS, you can further customize your system by modifying the NixOS configuration file (<code>/etc/nixos/configuration.nix</code>). Make any desired changes and run <code>sudo nixos-rebuild switch</code> to apply the new configuration.</p>
+<p>That&rsquo;s it! You now have NixOS installed on your computer. Remember that NixOS has a unique approach to package management and system configuration, so it may take some time to familiarize yourself with its concepts and workflows. The NixOS <a href="https://nixos.org/manual/nixos/stable">documentation</a> is an excellent resource for further exploration and understanding of the distribution.</p>
 
-            
-            <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/tech/arch-installation-guide/">How to install Arch linux</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2023-06-22T19:19:46&#43;0530">
-        22 Jun 2023
-    </time>
-</article>
-
-            
-            
-        </main>
-    </div><footer class="footer">
+            </div>
+        </article></main>
+</div>
+<footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
 
@@ -230,5 +249,4 @@ stroke-linejoin="round" class="feather feather-home">
     
 
 </body>
-
 </html>
