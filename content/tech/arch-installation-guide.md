@@ -205,3 +205,18 @@ import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.m
 mermaid.initialize({ startOnLoad: true });
 </script>
 
+<script src="https://giscus.app/client.js"
+        data-repo="yougraj/My-Notes"
+        data-repo-id="R_kgDOJynR4w"
+        data-category="[ENTER CATEGORY NAME HERE]"
+        data-category-id="[ENTER CATEGORY ID HERE]"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
