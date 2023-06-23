@@ -1,5 +1,5 @@
 title = "Takara"
-baseURL = ''
+baseURL = 'https://yougraj.github.io/'
 languageCode = 'en-us'
 theme = "hugo-blog-awesome"
 defaultContentLanguage = "en-gb"
