@@ -187,15 +187,18 @@ At last enable these
 
 `reboot` the system now your system is ready to install what ever environment you want gnome, kde, or you can also install cool window managers like awesomewm, bspwm, hyprland, sway etc
 
-You can use mine hyprland frok form [***prasanthrangan***](https://github.com/prasanthrangan)
 
 
 ```bash
 systemctl enable seatd
 systemctl start seatd
 usermod -a -G seat myusername
-
 ```
+
+You can use a great hyprland config from ***[prasanthrangan](https://github.com/prasanthrangan)***
+
+<video style="width:100%" controls src="https://user-images.githubusercontent.com/106020512/235429801-e8b8dae2-c1ad-4e23-9aa2-b1edb6cabe99.mp4" type="video/mp4">
+</video>
 
 <script type="module">
 import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
