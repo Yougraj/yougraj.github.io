@@ -206,16 +206,16 @@ mermaid.initialize({ startOnLoad: true });
 </script>
 
 <script src="https://giscus.app/client.js"
-        data-repo="yougraj/My-Notes"
-        data-repo-id="R_kgDOJynR4w"
-        data-category="[ENTER CATEGORY NAME HERE]"
-        data-category-id="[ENTER CATEGORY ID HERE]"
+        data-repo="Yougraj/yougraj.github.io"
+        data-repo-id="R_kgDOJzAsTQ"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOJzAsTc4CXa6O"
         data-mapping="url"
         data-strict="0"
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="bottom"
-        data-theme="preferred_color_scheme"
+        data-theme="dark"
         data-lang="en"
         crossorigin="anonymous"
         async>
