@@ -44,7 +44,7 @@ disqusShortname = ''
   defaultColor = "dark" # set color mode: dark, light, auto
   description = "Linux, some tech things or sometime just anything "
   toc = false # set to false to disable table of contents 'globally'
-
+  goToTop = true # set to false to disable 'go to top' button
 [params.author]
   avatar = "avatar.jpg"
   intro = "Takara"
