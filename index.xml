@@ -6,7 +6,18 @@
     <description>Recent content in Yougraj Bora on Takara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Jun 2023 16:53:40 +0530</lastBuildDate><atom:link href="https://yougraj.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Jul 2023 16:53:40 +0530</lastBuildDate><atom:link href="https://yougraj.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Hilarious Misadventures of Wi-Fi Hacking - Not Recommended, Unless You&#39;re a Potato!</title>
+      <link>https://yougraj.github.io/tech/wifi-crack/</link>
+      <pubDate>Sat, 29 Jul 2023 16:53:40 +0530</pubDate>
+      
+      <guid>https://yougraj.github.io/tech/wifi-crack/</guid>
+      <description>Greetings, fellow tech tinkerers, amateur hackers, and aspiring Wi-Fi wizards! Today, we&amp;rsquo;re about to embark on a journey filled with Wi-Fi shenanigans, aircrack-ng acrobatics, and a pinch of absurdity. Buckle up your imaginary seatbelts, and let&amp;rsquo;s dive into the world of &amp;ldquo;Wi-Foooolery&amp;rdquo; (see what I did there?).
+Step 1: The Mysterious Wi-Fi Listening Act
+First things first, we need to eavesdrop on a Wi-Fi network, and no, we won&amp;rsquo;t use a hidden microphone.</description>
+    </item>
+    
     <item>
       <title>Nixos Installation Guide</title>
       <link>https://yougraj.github.io/tech/nixos-installation/</link>
@@ -22,7 +33,7 @@
       <pubDate>Thu, 22 Jun 2023 19:19:46 +0530</pubDate>
       
       <guid>https://yougraj.github.io/tech/arch-installation-guide/</guid>
-      <description>Arch install Blog A Guide to Installing Arch Linux In the world of Linux distributions, Arch Linux stands tall as a minimalist, flexible, and powerful operating system that caters to the preferences of experienced users. Installing Arch Linux is a rite of passage for those seeking to gain a deeper understanding of the inner workings of Linux and customize their system to their heart&amp;rsquo;s content. In this blog post, we will embark on an adventure together, walking you through the steps to install Arch Linux and unlock the full potential of this remarkable distribution.</description>
+      <description>Lets start In the world of Linux distributions, Arch Linux stands tall as a minimalist, flexible, and powerful operating system that caters to the preferences of experienced users. Installing Arch Linux is a rite of passage for those seeking to gain a deeper understanding of the inner workings of Linux and customize their system to their heart&amp;rsquo;s content. In this blog post, we will embark on an adventure together, walking you through the steps to install Arch Linux and unlock the full potential of this remarkable distribution.</description>
     </item>
     
     <item>

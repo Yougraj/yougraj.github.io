@@ -3,11 +3,11 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">Yougraj Bora | Takara</title>
-<meta property="og:title" content="Yougraj Bora | Takara" />
-<meta name="twitter:title" content="Yougraj Bora | Takara" />
-<meta itemprop="name" content="Yougraj Bora | Takara" />
-<meta name="application-name" content="Yougraj Bora | Takara" />
+<title itemprop="name">The Hilarious Misadventures of Wi-Fi Hacking - Not Recommended, Unless You&#39;re a Potato! | Takara</title>
+<meta property="og:title" content="The Hilarious Misadventures of Wi-Fi Hacking - Not Recommended, Unless You&#39;re a Potato! | Takara" />
+<meta name="twitter:title" content="The Hilarious Misadventures of Wi-Fi Hacking - Not Recommended, Unless You&#39;re a Potato! | Takara" />
+<meta itemprop="name" content="The Hilarious Misadventures of Wi-Fi Hacking - Not Recommended, Unless You&#39;re a Potato! | Takara" />
+<meta name="application-name" content="The Hilarious Misadventures of Wi-Fi Hacking - Not Recommended, Unless You&#39;re a Potato! | Takara" />
 <meta property="og:site_name" content="Takara" />
 
 <meta name="description" content="Linux, some tech things or sometime just anything ">
@@ -33,9 +33,7 @@
 
     
 
-    <link rel="canonical" href="https://yougraj.github.io/">
-    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Takara">
-    <link href="/index.xml" rel="feed" type="application/rss+xml" title="Takara">
+    <link rel="canonical" href="https://yougraj.github.io/tech/wifi-crack/">
     <link href="/style.min.d16f523c36741e07697791cfe4bcb09b8c92c7034d5cbf85980df65d92a70e97.css" rel="stylesheet">
     <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
@@ -60,7 +58,7 @@
 
     
     </head>
-<body data-theme="dark" class="notransition">
+<body data-theme = "dark" class="notransition">
 
 <script src="/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js" integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script>
 
@@ -101,7 +99,7 @@ stroke-linejoin="round" class="feather feather-home">
                 </li>
                 
                 <li>
-                    <a class="menu-link " href="/tech/">
+                    <a class="menu-link active" href="/tech/">
                         Tech
                     </a>
                     
@@ -127,65 +125,49 @@ stroke-linejoin="round" class="feather feather-home">
         </div>
     </nav>
 </div>
-<div class="wrapper">
-        
 
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">The Hilarious Misadventures of Wi-Fi Hacking - Not Recommended, Unless You&#39;re a Potato!</h1>
+                
+                <div class="post-meta">
+                    <time datetime="2023-07-29T16:53:40&#43;05:30" itemprop="datePublished"> 29 Jul 2023 </time>
+                </div>
+            </header><div class="page-content">
+                <p>Greetings, fellow tech tinkerers, amateur hackers, and aspiring Wi-Fi wizards! Today, we&rsquo;re about to embark on a journey filled with Wi-Fi shenanigans, aircrack-ng acrobatics, and a pinch of absurdity. Buckle up your imaginary seatbelts, and let&rsquo;s dive into the world of &ldquo;Wi-Foooolery&rdquo; (see what I did there?).</p>
+<p>Step 1: The Mysterious Wi-Fi Listening Act</p>
+<p>First things first, we need to eavesdrop on a Wi-Fi network, and no, we won&rsquo;t use a hidden microphone. Instead, we&rsquo;ll use some &ldquo;bash-tastic&rdquo; commands that make us feel like Wi-Fi spies on a top-secret mission. Sneaky, huh?</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ip addr <span class="p">|</span> grep wlan0
+</span></span></code></pre></div><p>Step 2: The WiFi Transformer - From Browsing to Monitoring</p>
+<p>Now, brace yourself for the most dramatic part of our adventure. We&rsquo;ll transform our Wi-Fi adapter from a mild-mannered internet-browsing hero into a full-blown monitor mode superhero! Behold the magical invocation:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yay aircrack-ng
+</span></span><span class="line"><span class="cl">sudo airmon start wlan0 <span class="c1">##wlan0 would be your network name</span>
+</span></span></code></pre></div><p><em>Disclaimer: No adapters were harmed during this transformation.</em></p>
+<p>Step 3: Unraveling the 4-Way Handshake Puzzle</p>
+<p>The 4-way handshake - a puzzling Wi-Fi ritual that holds the keys to our mischievous intentions. We need to capture it, and we&rsquo;ll know we&rsquo;re on the right track when we hear our Wi-Fi adapter whispering sweet nothings like:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo iwconfig
+</span></span><span class="line"><span class="cl">sudo airdump-ng -essid &lt;essid name&gt; -w ./wifi-packet wlan0mon
+</span></span></code></pre></div><p>Step 4: One Channel to Rule Them All</p>
+<p>We don&rsquo;t want to miss a thing, especially when it comes to Wi-Fi hacking (or Wi-Foooolery, as we like to call it). Let&rsquo;s focus our ninja-like skills on a specific channel:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo airdump-ng -essid &lt;essid name&gt; -w ./wifi-packet wlan0mon --bssid &lt;bssid&gt; -c <span class="m">1</span>
+</span></span></code></pre></div><p>Step 5: Enough Wi-Fooooling Around!</p>
+<p>As much as we love Wi-Fooooling around, every adventure must come to an end. When you feel like it&rsquo;s time to return to the ordinary Wi-Fi mortal world, just say the magic words:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo airmon-ng stop wlan0mon
+</span></span></code></pre></div><p>Step 6: Crack Open the Wi-Fi Treasure Chest (with Permission)</p>
+<p>Finally, the moment we&rsquo;ve all been waiting for (cue dramatic music)! The &ldquo;.cap&rdquo; file holds the secrets we seek, like a treasure chest waiting to be unlocked:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo aircrack-ng -a <span class="m">2</span> -b &lt;bssid&gt; -w &lt;wordlist&gt; &lt;.cap file&gt;
+</span></span></code></pre></div><p><em>Reminder: Attempt this only on your own network or with explicit permission from the network owner.</em></p>
+<p>Conclusion:</p>
+<p>There you have it, intrepid Wi-Fi enthusiasts! Remember, hacking into someone else&rsquo;s Wi-Fi without permission is like attempting to play a tuba while wearing a chicken suit – it might sound funny, but it won&rsquo;t end well. Stick to your own network or join the Wi-Fi hacking community with ethical intentions, and you&rsquo;ll have a blast learning the ropes of Wi-Foooolery!</p>
+<p>Until next time, may your Wi-Fi signal be strong, and your passwords even stronger! Happy hacking (responsibly)!</p>
+<p><em>Disclaimer: The author takes no responsibility for Wi-Fi-related mishaps, potato-related accidents, or any chicken suits involved in unauthorized Wi-Fi hacking attempts. Be smart, stay safe, and avoid becoming the punchline of a tech comedy show!</em></p>
 
-<div class="author">
-    
-    
-    <img class="author-avatar" src="/avatar_hu9f448f8294dad649b4a67ba454ce766a_6672_100x100_fill_q75_h2_box_smart1.webp" alt="Yougraj" width="200"
-        height="252" />
-    
-    <h2 class="author-name">Takara</h2>
-    <p class="author-bio">Linux, some tech things or sometime just anything</p>
+            </div>
+        </article></main>
 </div>
-
-        <main aria-label="Content">
-            <h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
-            
-            
-            
-            
-            <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/tech/wifi-crack/">The Hilarious Misadventures of Wi-Fi Hacking - Not Recommended, Unless You&#39;re a Potato!</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2023-07-29T16:53:40&#43;0530">
-        29 Jul 2023
-    </time>
-</article>
-
-            
-            <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/tech/nixos-installation/">Nixos Installation Guide</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2023-06-23T16:53:40&#43;0530">
-        23 Jun 2023
-    </time>
-</article>
-
-            
-            <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/tech/arch-installation-guide/">How to install Arch linux</a>
-    </h4>
-    
-    
-    <time class="post-item-meta" datetime="2023-06-22T19:19:46&#43;0530">
-        22 Jun 2023
-    </time>
-</article>
-
-            
-            
-        </main>
-    </div><footer class="footer">
+<footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
 
@@ -242,5 +224,4 @@ stroke-linejoin="round" class="feather feather-home">
     
 
 </body>
-
 </html>
