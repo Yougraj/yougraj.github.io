@@ -66,3 +66,23 @@ There you have it, intrepid Wi-Fi enthusiasts! Remember, hacking into someone el
 Until next time, may your Wi-Fi signal be strong, and your passwords even stronger! Happy hacking (responsibly)!
 
 *Disclaimer: The author takes no responsibility for Wi-Fi-related mishaps, potato-related accidents, or any chicken suits involved in unauthorized Wi-Fi hacking attempts. Be smart, stay safe, and avoid becoming the punchline of a tech comedy show!*
+
+
+<script src="https://giscus.app/client.js"
+        data-repo="Yougraj/yougraj.github.io"
+        data-repo-id="R_kgDOJzAsTQ"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOJzAsTc4CXa6O"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2419248686582582" crossorigin="anonymous"></script>
