@@ -4,9 +4,8 @@ date: 2023-06-22T19:19:46+05:30
 ---
 
 
-# Arch install Blog
 
-# A Guide to Installing Arch Linux
+# Lets start 
 
 In the world of Linux distributions, Arch Linux stands tall as a minimalist, flexible, and powerful operating system that caters to the preferences of experienced users. Installing Arch Linux is a rite of passage for those seeking to gain a deeper understanding of the inner workings of Linux and customize their system to their heart's content. In this blog post, we will embark on an adventure together, walking you through the steps to install Arch Linux and unlock the full potential of this remarkable distribution. If you are not linux geek like me then you can also installing via installing script but that’s not a fun way to install archlinux so lets start our Journay: 
 
