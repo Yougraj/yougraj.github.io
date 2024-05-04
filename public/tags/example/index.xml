@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Example on Takara</title>
+    <link>//localhost:1313/tags/example/</link>
+    <description>Recent content in Example on Takara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Yougraj</copyright>
+    <lastBuildDate>Tue, 30 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/example/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Evolving Landscape of Social Media and Social Networking</title>
+      <link>//localhost:1313/posts/the-evolving-landscape-of-social-media-and-social-networking/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/the-evolving-landscape-of-social-media-and-social-networking/</guid>
+      <description>আজিৰ আন্তঃসংযোগী পৃথিৱীখনত Social Media আৰু Social networking প্লেটফৰ্ম আমাৰ দৈনন্দিন জীৱনৰ অবিচ্ছেদ্য অংগ হৈ পৰিছে। বন্ধু-বান্ধৱ আৰু পৰিয়ালৰ সৈতে সংযোগ স্থাপনৰ পৰা আৰম্ভ কৰি বাতৰি আৰু তথ্য লাভ কৰালৈকে এই মঞ্চসমূহে সমাজৰ পাৰস্পৰিক ক্ৰিয়া-কলাপ আৰু বক্তৃতা গঢ় দিয়াত উল্লেখযোগ্য ভূমিকা পালন কৰে। কিন্তু এইবোৰৰ ব্যাপক প্ৰভাৱৰ লগে লগে বহুতো প্ৰত্যাহ্বান আৰু উদ্বেগ আহি পৰে যিবোৰ চিন্তাশীলভাৱে বিবেচনা কৰাৰ প্ৰয়োজন।</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/the-evolving-landscape-of-social-media-and-social-networking/cover.png" />
+    </item>
+    
+  </channel>
+</rss>

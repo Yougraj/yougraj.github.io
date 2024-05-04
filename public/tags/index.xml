@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Takara</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Takara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Yougraj</copyright>
+    <lastBuildDate>Fri, 03 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI</title>
+      <link>http://localhost:1313/tags/ai/</link>
+      <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ai/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Social Media</title>
+      <link>http://localhost:1313/tags/social-media/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/social-media/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Social Networking</title>
+      <link>http://localhost:1313/tags/social-networking/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/social-networking/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Aircrack-Ng</title>
+      <link>http://localhost:1313/tags/aircrack-ng/</link>
+      <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/aircrack-ng/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Airdump-Ng</title>
+      <link>http://localhost:1313/tags/airdump-ng/</link>
+      <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/airdump-ng/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Airmon</title>
+      <link>http://localhost:1313/tags/airmon/</link>
+      <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/airmon/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Airmon-Ng</title>
+      <link>http://localhost:1313/tags/airmon-ng/</link>
+      <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/airmon-ng/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Wifi-Craking</title>
+      <link>http://localhost:1313/tags/wifi-craking/</link>
+      <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/wifi-craking/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Nixos</title>
+      <link>http://localhost:1313/tags/nixos/</link>
+      <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/nixos/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>NixOs Installation</title>
+      <link>http://localhost:1313/tags/nixos-installation/</link>
+      <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/nixos-installation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Arch</title>
+      <link>http://localhost:1313/tags/arch/</link>
+      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/arch/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>ArchLinux</title>
+      <link>http://localhost:1313/tags/archlinux/</link>
+      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/archlinux/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

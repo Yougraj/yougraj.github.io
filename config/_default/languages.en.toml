@@ -1,0 +1,18 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Takara"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+description = "My awesome website"
+dateFormat = "2 January 2006"
+
+[author]
+name = "Yougraj"
+image = "Profile.png"
+headline = "Linux, various tech topics, or just about anything"
+bio = "A buggy coder"
+links = []
