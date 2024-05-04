@@ -2,58 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Takara</title>
-    <link>http://localhost:1313/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on Takara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Yougraj</copyright>
-    <lastBuildDate>Fri, 03 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>new-article</title>
+      <link>//localhost:1313/tech/1714830394411-new-article/</link>
+      <pubDate>Sat, 04 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tech/1714830394411-new-article/</guid>
+      <description>an example to get you started
+This is a heading # This is a subheading # This is a subsubheading # This is a subsubsubheading # This is a paragraph with bold and italic text.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/tech/1714830394411-new-article/featured.png" />
+    </item>
+    
     <item>
       <title>Embracing the Promise and Perils of Artificial Intelligence</title>
-      <link>http://localhost:1313/posts/embracing-the-promise-and-perils-of-artificial-intelligence/</link>
+      <link>//localhost:1313/posts/embracing-the-promise-and-perils-of-artificial-intelligence/</link>
       <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/embracing-the-promise-and-perils-of-artificial-intelligence/</guid>
+      <guid>//localhost:1313/posts/embracing-the-promise-and-perils-of-artificial-intelligence/</guid>
       <description>প্ৰযুক্তিগত উন্নতিৰ আধিপত্য থকা যুগত কৃত্ৰিম বুদ্ধিমত্তাৰ (AI) উত্থানে আমাৰ সমাজখনক পুনৰ গঢ় দিয়া অন্যতম পৰিৱৰ্তনশীল শক্তি হিচাপে থিয় দিছে। উৎপাদনশীলতা বৃদ্ধিৰ পৰা আৰম্ভ কৰি স্বাস্থ্যসেৱাত বৈপ্লৱিক পৰিৱৰ্তন আনিবলৈ AIৰ সম্ভাৱনা অপৰিসীম। কিন্তু এই প্ৰতিশ্ৰুতিৰ লগত আমাৰ মনোযোগৰ দাবী কৰা উল্লেখযোগ্য নৈতিক আৰু সমাজৰ বিবেচনাৰ প্ৰয়োজন।</description>
       
     </item>
     
     <item>
       <title>The Evolving Landscape of Social Media and Social Networking</title>
-      <link>http://localhost:1313/posts/the-evolving-landscape-of-social-media-and-social-networking/</link>
+      <link>//localhost:1313/posts/the-evolving-landscape-of-social-media-and-social-networking/</link>
       <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/the-evolving-landscape-of-social-media-and-social-networking/</guid>
+      <guid>//localhost:1313/posts/the-evolving-landscape-of-social-media-and-social-networking/</guid>
       <description>আজিৰ আন্তঃসংযোগী পৃথিৱীখনত Social Media আৰু Social networking প্লেটফৰ্ম আমাৰ দৈনন্দিন জীৱনৰ অবিচ্ছেদ্য অংগ হৈ পৰিছে। বন্ধু-বান্ধৱ আৰু পৰিয়ালৰ সৈতে সংযোগ স্থাপনৰ পৰা আৰম্ভ কৰি বাতৰি আৰু তথ্য লাভ কৰালৈকে এই মঞ্চসমূহে সমাজৰ পাৰস্পৰিক ক্ৰিয়া-কলাপ আৰু বক্তৃতা গঢ় দিয়াত উল্লেখযোগ্য ভূমিকা পালন কৰে। কিন্তু এইবোৰৰ ব্যাপক প্ৰভাৱৰ লগে লগে বহুতো প্ৰত্যাহ্বান আৰু উদ্বেগ আহি পৰে যিবোৰ চিন্তাশীলভাৱে বিবেচনা কৰাৰ প্ৰয়োজন।</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/the-evolving-landscape-of-social-media-and-social-networking/cover.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/the-evolving-landscape-of-social-media-and-social-networking/cover.png" />
     </item>
     
     <item>
       <title>The Hilarious Misadventures of Wi-Fi Hacking - Not Recommended, Unless You&#39;re a Potato!</title>
-      <link>http://localhost:1313/posts/wifi-crack/</link>
+      <link>//localhost:1313/posts/wifi-crack/</link>
       <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/wifi-crack/</guid>
+      <guid>//localhost:1313/posts/wifi-crack/</guid>
       <description>Ahoy, me hearties! Gather &amp;lsquo;round, for today we&amp;rsquo;re setting sail on a voyage filled with Wi-Fi shenanigans, aircrack-ng acrobatics, and a sprinkle of pure, unadulterated silliness. Get ready to hoist the Jolly Roger of &amp;ldquo;Wi-Foooolery&amp;rdquo; (and yes, that&amp;rsquo;s the most clever pun you&amp;rsquo;ve ever seen)!</description>
       
     </item>
     
     <item>
       <title>Nixos Installation Guide</title>
-      <link>http://localhost:1313/posts/nixos-installation-guide/</link>
+      <link>//localhost:1313/posts/nixos-installation-guide/</link>
       <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/nixos-installation-guide/</guid>
+      <guid>//localhost:1313/posts/nixos-installation-guide/</guid>
       <description>What is NixOs # NixOS is a Linux distribution renowned for its unique approach to package management and system configuration. It employs a purely functional package management system that ensures reproducibility and eliminates version conflicts.</description>
       
     </item>
     
     <item>
       <title>How to install Arch linux</title>
-      <link>http://localhost:1313/posts/how-to-install-arch-linux/</link>
+      <link>//localhost:1313/posts/how-to-install-arch-linux/</link>
       <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/how-to-install-arch-linux/</guid>
+      <guid>//localhost:1313/posts/how-to-install-arch-linux/</guid>
       <description>Lets start # In the world of Linux distributions, Arch Linux stands tall as a minimalist, flexible, and powerful operating system that caters to the preferences of experienced users. Installing Arch Linux is a rite of passage for those seeking to gain a deeper understanding of the inner workings of Linux and customize their system to their heart&amp;rsquo;s content.</description>
       
     </item>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arch on Takara</title>
-    <link>http://localhost:1313/tags/arch/</link>
+    <link>//localhost:1313/tags/arch/</link>
     <description>Recent content in Arch on Takara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Yougraj</copyright>
-    <lastBuildDate>Thu, 22 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/arch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/arch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to install Arch linux</title>
-      <link>http://localhost:1313/posts/how-to-install-arch-linux/</link>
+      <link>//localhost:1313/posts/how-to-install-arch-linux/</link>
       <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/how-to-install-arch-linux/</guid>
+      <guid>//localhost:1313/posts/how-to-install-arch-linux/</guid>
       <description>Lets start # In the world of Linux distributions, Arch Linux stands tall as a minimalist, flexible, and powerful operating system that caters to the preferences of experienced users. Installing Arch Linux is a rite of passage for those seeking to gain a deeper understanding of the inner workings of Linux and customize their system to their heart&amp;rsquo;s content.</description>
       
     </item>
