@@ -7,16 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Yougraj</copyright>
-    <lastBuildDate>Sat, 04 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>new-article</title>
-      <link>//localhost:1313/tech/1714830394411-new-article/</link>
-      <pubDate>Sat, 04 May 2024 00:00:00 +0000</pubDate>
+      <title>The Hilarious Misadventures of Wi-Fi Hacking - Not Recommended, Unless You&#39;re a Potato!</title>
+      <link>//localhost:1313/tech/wifi-crack/</link>
+      <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/tech/1714830394411-new-article/</guid>
-      <description>an example to get you started
-This is a heading # This is a subheading # This is a subsubheading # This is a subsubsubheading # This is a paragraph with bold and italic text.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/tech/1714830394411-new-article/featured.png" />
+      <guid>//localhost:1313/tech/wifi-crack/</guid>
+      <description>Ahoy, me hearties! Gather &amp;lsquo;round, for today we&amp;rsquo;re setting sail on a voyage filled with Wi-Fi shenanigans, aircrack-ng acrobatics, and a sprinkle of pure, unadulterated silliness. Get ready to hoist the Jolly Roger of &amp;ldquo;Wi-Foooolery&amp;rdquo; (and yes, that&amp;rsquo;s the most clever pun you&amp;rsquo;ve ever seen)!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/tech/wifi-crack/cover.png" />
+    </item>
+    
+    <item>
+      <title>Nixos Installation Guide</title>
+      <link>//localhost:1313/tech/nixos-installation-guide/</link>
+      <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tech/nixos-installation-guide/</guid>
+      <description>What is NixOs # NixOS is a Linux distribution renowned for its unique approach to package management and system configuration. It employs a purely functional package management system that ensures reproducibility and eliminates version conflicts.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/tech/nixos-installation-guide/cover.png" />
+    </item>
+    
+    <item>
+      <title>How to install Arch linux</title>
+      <link>//localhost:1313/tech/how-to-install-arch-linux/</link>
+      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/tech/how-to-install-arch-linux/</guid>
+      <description>Lets start # In the world of Linux distributions, Arch Linux stands tall as a minimalist, flexible, and powerful operating system that caters to the preferences of experienced users. Installing Arch Linux is a rite of passage for those seeking to gain a deeper understanding of the inner workings of Linux and customize their system to their heart&amp;rsquo;s content.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/tech/how-to-install-arch-linux/cover.png" />
     </item>
     
   </channel>

@@ -15,7 +15,17 @@
       
       <guid>//localhost:1313/posts/wifi-crack/</guid>
       <description>Ahoy, me hearties! Gather &amp;lsquo;round, for today we&amp;rsquo;re setting sail on a voyage filled with Wi-Fi shenanigans, aircrack-ng acrobatics, and a sprinkle of pure, unadulterated silliness. Get ready to hoist the Jolly Roger of &amp;ldquo;Wi-Foooolery&amp;rdquo; (and yes, that&amp;rsquo;s the most clever pun you&amp;rsquo;ve ever seen)!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/wifi-crack/cover.png" />
+    </item>
+    
+    <item>
+      <title>The Hilarious Misadventures of Wi-Fi Hacking - Not Recommended, Unless You&#39;re a Potato!</title>
+      <link>//localhost:1313/tech/wifi-crack/</link>
+      <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
       
+      <guid>//localhost:1313/tech/wifi-crack/</guid>
+      <description>Ahoy, me hearties! Gather &amp;lsquo;round, for today we&amp;rsquo;re setting sail on a voyage filled with Wi-Fi shenanigans, aircrack-ng acrobatics, and a sprinkle of pure, unadulterated silliness. Get ready to hoist the Jolly Roger of &amp;ldquo;Wi-Foooolery&amp;rdquo; (and yes, that&amp;rsquo;s the most clever pun you&amp;rsquo;ve ever seen)!</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/tech/wifi-crack/cover.png" />
     </item>
     
   </channel>

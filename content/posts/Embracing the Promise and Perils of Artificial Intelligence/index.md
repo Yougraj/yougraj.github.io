@@ -16,23 +16,3 @@ tags: ["AI"]
  তদুপৰি AIৰ বিকাশৰ দ্ৰুত গতিবেগে মানৱতাৰ ওপৰত ইয়াৰ দীৰ্ঘম্যাদী প্ৰভাৱৰ ওপৰত প্ৰশ্ন উত্থাপন কৰে।  অস্তিত্বৰ বিপদৰ পৰা চেতনা আৰু নৈতিকতাৰ প্ৰশ্নলৈকে এআই আৰু মানৱ অস্তিত্বৰ সংযোগে গভীৰ দাৰ্শনিক বিতৰ্কৰ সূচনা কৰে।  আমি এই অচিনাক্ত ভূখণ্ডত নেভিগেট কৰাৰ সময়ত আন্তঃশাখা আলোচনা আৰু সহযোগিতা আগবঢ়াৰ দায়িত্বশীল পথ নিৰ্ধাৰণৰ বাবে অতি প্ৰয়োজনীয়।
 
  শেষত, AIৰ প্ৰতিশ্ৰুতি নিৰ্ভৰ কৰে ইয়াৰ নৈতিক, সমাজ আৰু অস্তিত্বৰ প্ৰভাৱৰ সৈতে মোকাবিলা কৰাৰ লগতে ইয়াৰ সম্ভাৱনাক ব্যৱহাৰ কৰাৰ আমাৰ ক্ষমতাৰ ওপৰত।  দায়িত্বশীল উদ্ভাৱনৰ সংস্কৃতিক লালন-পালন কৰি আমি নিশ্চিত কৰিব পাৰো যে AIয়ে প্ৰগতি আৰু মানৱ সমৃদ্ধিৰ বাবে এক শক্তি হিচাপে কাম কৰে।  AI যুগৰ আৰম্ভণিতে থিয় হৈ থকাৰ সময়তে আহক আমি ইয়াৰ বিৱৰ্তনৰ কাষ চাপি যাওঁ প্ৰজ্ঞা, দূৰদৰ্শিতা আৰু সাধাৰণ মংগলৰ প্ৰতি দায়বদ্ধতাৰে।
-
-
-
-<script src="https://giscus.app/client.js"
-        data-repo="Yougraj/yougraj.github.io"
-        data-repo-id="R_kgDOJzAsTQ"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOJzAsTc4CXa6O"
-        data-mapping="url"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="dark"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-</script>
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2419248686582582" crossorigin="anonymous"></script>

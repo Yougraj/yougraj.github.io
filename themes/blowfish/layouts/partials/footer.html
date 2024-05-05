@@ -30,7 +30,7 @@
       {{ . | emojify | markdownify }}
       {{- else }}
       &copy;
-      {{ now.Format "2006" }}
+      2023-{{ now.Format "2006" }}
       {{ .Site.Author.name | markdownify | emojify }}
       {{- end }}
     </p>
