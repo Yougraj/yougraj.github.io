@@ -94,9 +94,4 @@ Once you're logged into NixOS, you can further customize your system by modifyin
 That's it! You now have NixOS installed on your computer. Remember that NixOS has a unique approach to package management and system configuration, so it may take some time to familiarize yourself with its concepts and workflows. The NixOS [documentation](https://nixos.org/manual/nixos/stable) is an excellent resource for further exploration and understanding of the distribution.
 
 
-<script type="module">
-import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-mermaid.initialize({ startOnLoad: true });
-</script>
-
 

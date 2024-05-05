@@ -1,8 +1,14 @@
 {{ define "main" }}
-  {{ $partial := print "partials/home/" .Site.Params.homepage.layout ".html" }}
-  {{ if templates.Exists $partial }}
+    {{ $partial := print "partials/home/" .Site.Params.homepage.layout ".html" }}
+    {{ if templates.Exists $partial }}
     {{ partial $partial . }}
-  {{ else }}
+        {{ else }}
     {{ partial "partials/home/profile.html" . }}
-  {{ end }}
+        {{ end }}
+    {{ if .Store.Get "hasMermaid" }}
+      <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+      </script>
+    {{ end }}
 {{ end }}
