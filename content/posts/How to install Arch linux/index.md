@@ -35,17 +35,17 @@ Arch Linux allows you full control over partitioning your disk. Depending on you
 
 {{< mermaid >}}
 %%{
-  init: {
-    'theme': 'base',
-    'themeVariables': {
-      'primaryColor': '#006100',
-      'primaryTextColor': '#fff',
-      'primaryBorderColor': '#7C0000',
-      'lineColor': '#F8B229',
-      'secondaryColor': '#006100',
-      'tertiaryColor': '#fff'
-    }
-  }
+          init: {
+            'theme': 'base',
+            'themeVariables': {
+              'primaryColor': '#C1BDDB',
+              'primaryTextColor': '#000',
+              'primaryBorderColor': '#35C4B6',
+              'lineColor': '#58FCEC',
+              'secondaryColor': '#006100',
+              'tertiaryColor': '#fff'
+            }
+          }
 }%%
 flowchart LR
 A[cfdisk] --> B{select 'gpt' option}    
