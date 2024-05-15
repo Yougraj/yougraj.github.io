@@ -20,7 +20,8 @@ NixOS is a Linux distribution renowned for its unique approach to package manage
         sudo su
         ```
     * Follow the flowchart given bellow for disk partitioning
-        ```mermaid
+
+{{< mermaid >}}
                 
         %%{
           init: {
@@ -54,7 +55,7 @@ NixOS is a Linux distribution renowned for its unique approach to package manage
         give double of you ram size
 
         .`")
-        ```
+{{< /mermaid >}}
     * Changing the file system 
         ```bash
         mkfs.fat -F 32 -n boot /dev/sda2 # EFI system
