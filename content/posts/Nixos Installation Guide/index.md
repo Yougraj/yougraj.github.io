@@ -64,7 +64,8 @@ mkswap -L swap /dev/sda3 #swap partition
 ```
 If you wana see you disk name `lablk`
 * Let's mount the system
-  Mount the Root partion
+
+   Mount the Root partion
 ```bash
 mount /dev/disk/by-label/nixos /mnt 
 ```
