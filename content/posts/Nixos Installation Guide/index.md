@@ -56,37 +56,37 @@ NixOS is a Linux distribution renowned for its unique approach to package manage
 
         .`")
 {{< /mermaid >}}
-    * Changing the file system 
-        ```bash
-        mkfs.fat -F 32 -n boot /dev/sda2 # EFI system
-        mkfs.ext4 -L nixos /dev/sda1 #Root partion 
-        mkswap -L swap /dev/sda3 #swap partition
-        ```
-        If you wana see you disk name `lablk`
-    * Let's mount the system
-        Mount the Root partion
-        ```bash
-        mount /dev/disk/by-label/nixos /mnt 
-        ```
-        Mount the UEFI system
-        ```bash
-        mkdir -p /mnt/boot
-        mount /dev/disk/by-label/boot /mnt/boot
-        ```
-        Now on swap
-        ```bash
-        swapon /dev/sda3
-        ```
-    * Now you have to generate nixos config 
-        ```bash
-        nixos-generate-config --root /mnt
-        ```
-    * Your system is ready now just one thing to go
-        ```bash
-        nixos-install
-        # then
-        reboot
-        ```
+    * Changing the file system
+```bash
+mkfs.fat -F 32 -n boot /dev/sda2 # EFI system
+mkfs.ext4 -L nixos /dev/sda1 #Root partion 
+mkswap -L swap /dev/sda3 #swap partition
+```
+If you wana see you disk name `lablk`
+* Let's mount the system
+  Mount the Root partion
+```bash
+mount /dev/disk/by-label/nixos /mnt 
+```
+   Mount the UEFI system
+```bash
+mkdir -p /mnt/boot
+mount /dev/disk/by-label/boot /mnt/boot
+```
+   Now on swap
+```bash
+swapon /dev/sda3
+```
+   * Now you have to generate nixos config 
+```bash
+nixos-generate-config --root /mnt
+```
+ * Your system is ready now just one thing to go
+```bash
+nixos-install
+# then
+reboot
+```
 
 ## Post-Installation Configuration 
 Once you're logged into NixOS, you can further customize your system by modifying the NixOS configuration file (`/etc/nixos/configuration.nix`). Make any desired changes and run `sudo nixos-rebuild switch` to apply the new configuration.
