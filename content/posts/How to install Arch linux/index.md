@@ -74,7 +74,7 @@ give double of you ram size
 ```bash
 mkfs.vfat /dev/sda2 # EFI system
 mkfs.ext4 /dev/sda1 #Root partion 
-mkswap /dev/sda3 && swapon /dev/sda3 #swap partition
+mkswap /dev/sda3
 ```
 
 # Step 6: Mounting the File Systems
@@ -83,6 +83,9 @@ Mount the root partition to the `/mnt` directory using the `mount` command. Addi
 
 ```bash
 mount /dev/sda1 /mnt
+mkdir /mnt/boot
+mount /dev/sda2 /mnt/boot
+swapon /dev/sda3
 ```
 
 # Step 7: Installing the Base System
