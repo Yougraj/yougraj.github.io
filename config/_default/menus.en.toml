@@ -10,22 +10,28 @@ identifier = "GF0uJP2MRe"
 weight = 20 
 
 [[main]]
+name = "Youtube"
+pageRef = "youtubevanced"
+weight = 30 
+
+
+[[main]]
 name = "Tags"
 pageRef = "tags"
-weight = 30
+weight = 40
 
 
 [[main]]
 identifier = "github"
 pre = "github"
 url = "https://github.com/yougraj"
-weight = 60
+weight = 70
 
 [[main]]
 identifier = "twitter"
 pre = "twitter"
 url = "https://twitter.com/yougrajb"
-weight = 70
+weight = 80
 
 [[footer]]
 name = "Tags"

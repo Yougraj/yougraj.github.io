@@ -76,9 +76,11 @@
     <meta property="article:tag" content="NixOs Installation">
     <meta property="og:image" content="//localhost:1313/posts/nixos-installation-guide/cover.png">
 
+  
   <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="//localhost:1313/posts/nixos-installation-guide/cover.png"><meta name="twitter:title" content="Nixos Installation Guide">
-<meta name="twitter:description" content="What is NixOs # NixOS is a Linux distribution renowned for its unique approach to package management and system configuration. It employs a purely functional package management system that ensures reproducibility and eliminates version conflicts.">
+  <meta name="twitter:image" content="//localhost:1313/posts/nixos-installation-guide/cover.png">
+  <meta name="twitter:title" content="Nixos Installation Guide">
+  <meta name="twitter:description" content="What is NixOs # NixOS is a Linux distribution renowned for its unique approach to package management and system configuration. It employs a purely functional package management system that ensures reproducibility and eliminates version conflicts.">
 
   
   <script type="application/ld+json">
@@ -105,7 +107,7 @@
     "keywords": ["Nixos","NixOs Installation"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "487"
+    "wordCount": "488"
   }]
   </script>
 
@@ -120,6 +122,17 @@
 <script src="/lib/jquery/jquery.slim.min.js" integrity=""></script>
 
 
+
+  
+  
+  
+  
+  <script
+    defer
+    type="text/javascript"
+    src="/js/mermaid.bundle.79fb2b63195059fdbfc56baebc147a42a4f1a8742d85e355e37f284c17866228b178f4bfc234a5ff7b807cca0907a189a1d6309159e50c112a9e82cabfc4c1f8.js"
+    integrity="sha512-efsrYxlQWf2/xWuuvBR6QqTxqHQtheNV438oTBeGYiixePS/wjSl/3uAfMoJB6GJodYwkVnlDBEqnoLKv8TB&#43;A=="
+  ></script>
 
 
 
@@ -192,6 +205,16 @@
     
     <p class="text-base font-medium" title="">
         Tech
+    </p>
+</a>
+
+
+            
+            
+  <a href="/youtubevanced/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        Youtube
     </p>
 </a>
 
@@ -402,6 +425,20 @@
         
         <p class="text-bg font-bg" title="">
             Tech
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/youtubevanced/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Youtube
         </p>
     </a>
 </li>
@@ -626,7 +663,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-06-23 00:00:00 &#43;0000 UTC">23 June 2023</time><span class="px-2 text-primary-500">&middot;</span><span>487 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
+  <time datetime="2023-06-23 00:00:00 &#43;0000 UTC">23 June 2023</time><span class="px-2 text-primary-500">&middot;</span><span>488 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
   
 
   
@@ -786,67 +823,76 @@
 <li>Enter into the root environment
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo su
 </span></span></code></pre></div></li>
-<li>Follow the flowchart given bellow for disk partitioning
-<pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">
-%%{
-  init: {
-    &#39;theme&#39;: &#39;base&#39;,
-    &#39;themeVariables&#39;: {
-      &#39;primaryColor&#39;: &#39;#C1BDDB&#39;,
-      &#39;primaryTextColor&#39;: &#39;#000&#39;,
-      &#39;primaryBorderColor&#39;: &#39;#35C4B6&#39;,
-      &#39;lineColor&#39;: &#39;#58FCEC&#39;,
-      &#39;secondaryColor&#39;: &#39;#006100&#39;,
-      &#39;tertiaryColor&#39;: &#39;#fff&#39;
-    }
-  }
-}%%
-flowchart LR
-A[cfdisk] --&gt; B{select &#39;gpt&#39; option}    
-B --&gt; C(&#34;`select the free space`&#34;)    
-C --&gt; D{&#34;`make 3 partition
-
-.`&#34;}
-D --&gt; E(&#34;`make &#39;600M&#39; partion type 
-is &#39;EFI System&#39;`&#34;)
-D --&gt; root(&#34;`Give space as much as 
-you want storage for 
-making root directory 
-type would be &#39;linux file system&#39;   .
-
-.`&#34;)
-D --&gt; swap(&#34;`Last you have to give 
-all left space to swap partition 
-give double of you ram size
-
-.`&#34;)
-</code></pre></li>
-<li>Changing the file system
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkfs.fat -F <span class="m">32</span> -n boot /dev/sda2 <span class="c1"># EFI system</span>
-</span></span><span class="line"><span class="cl">mkfs.ext4 -L nixos /dev/sda1 <span class="c1">#Root partion </span>
-</span></span><span class="line"><span class="cl">mkswap -L swap /dev/sda3 <span class="c1">#swap partition</span>
-</span></span></code></pre></div>If you wana see you disk name <code>lablk</code></li>
-<li>Let&rsquo;s mount the system
-Mount the Root partion
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mount /dev/disk/by-label/nixos /mnt 
-</span></span></code></pre></div>Mount the UEFI system
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkdir -p /mnt/boot
-</span></span><span class="line"><span class="cl">mount /dev/disk/by-label/boot /mnt/boot
-</span></span></code></pre></div>Now on swap
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">swapon /dev/sda3
-</span></span></code></pre></div></li>
-<li>Now you have to generate nixos config
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nixos-generate-config --root /mnt
-</span></span></code></pre></div></li>
-<li>Your system is ready now just one thing to go
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nixos-install
-</span></span><span class="line"><span class="cl"><span class="c1"># then</span>
-</span></span><span class="line"><span class="cl">reboot
-</span></span></code></pre></div></li>
+<li>Follow the flowchart given bellow for disk partitioning</li>
 </ul>
 </li>
 </ol>
+<p><div class="mermaid" align="center">
+  
+                
+        %%{
+          init: {
+            'theme': 'base',
+            'themeVariables': {
+              'primaryColor': '#C1BDDB',
+              'primaryTextColor': '#000',
+              'primaryBorderColor': '#35C4B6',
+              'lineColor': '#58FCEC',
+              'secondaryColor': '#006100',
+              'tertiaryColor': '#fff'
+            }
+          }
+        }%%
+        flowchart LR
+        A[cfdisk] --> B{select 'gpt' option}    
+        B --> C("`select the free space`")    
+        C --> D{"`make 3 partition
 
+        .`"}
+        D --> E("`make '600M' partion type 
+        is 'EFI System'`")
+        D --> root("`Give space as much as 
+        you want storage for 
+        making root directory 
+        type would be 'linux file system'   .
+
+        .`")
+        D --> swap("`Last you have to give 
+        all left space to swap partition 
+        give double of you ram size
+
+        .`")
+
+</div>
+
+* Changing the file system</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkfs.fat -F <span class="m">32</span> -n boot /dev/sda2 <span class="c1"># EFI system</span>
+</span></span><span class="line"><span class="cl">mkfs.ext4 -L nixos /dev/sda1 <span class="c1">#Root partion </span>
+</span></span><span class="line"><span class="cl">mkswap -L swap /dev/sda3 <span class="c1">#swap partition</span>
+</span></span></code></pre></div><p>If you wana see you disk name <code>lablk</code></p>
+<ul>
+<li>
+<p>Let&rsquo;s mount the system</p>
+<p>Mount the Root partion</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mount /dev/disk/by-label/nixos /mnt 
+</span></span></code></pre></div><p>Mount the UEFI system</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkdir -p /mnt/boot
+</span></span><span class="line"><span class="cl">mount /dev/disk/by-label/boot /mnt/boot
+</span></span></code></pre></div><p>Now on swap</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">swapon /dev/sda3
+</span></span></code></pre></div><ul>
+<li>Now you have to generate nixos config</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nixos-generate-config --root /mnt
+</span></span></code></pre></div><ul>
+<li>Your system is ready now just one thing to go</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nixos-install
+</span></span><span class="line"><span class="cl"><span class="c1"># then</span>
+</span></span><span class="line"><span class="cl">reboot
+</span></span></code></pre></div>
 
 <h2 class="relative group">Post-Installation Configuration 
     <div id="post-installation-configuration" class="anchor"></div>

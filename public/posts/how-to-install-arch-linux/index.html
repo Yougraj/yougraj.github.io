@@ -76,9 +76,11 @@
     <meta property="article:tag" content="ArchLinux">
     <meta property="og:image" content="//localhost:1313/posts/how-to-install-arch-linux/cover.png">
 
+  
   <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="//localhost:1313/posts/how-to-install-arch-linux/cover.png"><meta name="twitter:title" content="How to install Arch linux">
-<meta name="twitter:description" content="Lets start # In the world of Linux distributions, Arch Linux stands tall as a minimalist, flexible, and powerful operating system that caters to the preferences of experienced users. Installing Arch Linux is a rite of passage for those seeking to gain a deeper understanding of the inner workings of Linux and customize their system to their heart&rsquo;s content.">
+  <meta name="twitter:image" content="//localhost:1313/posts/how-to-install-arch-linux/cover.png">
+  <meta name="twitter:title" content="How to install Arch linux">
+  <meta name="twitter:description" content="Lets start # In the world of Linux distributions, Arch Linux stands tall as a minimalist, flexible, and powerful operating system that caters to the preferences of experienced users. Installing Arch Linux is a rite of passage for those seeking to gain a deeper understanding of the inner workings of Linux and customize their system to their heart’s content.">
 
   
   <script type="application/ld+json">
@@ -105,7 +107,7 @@
     "keywords": ["Arch","ArchLinux"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "965"
+    "wordCount": "967"
   }]
   </script>
 
@@ -120,6 +122,17 @@
 <script src="/lib/jquery/jquery.slim.min.js" integrity=""></script>
 
 
+
+  
+  
+  
+  
+  <script
+    defer
+    type="text/javascript"
+    src="/js/mermaid.bundle.79fb2b63195059fdbfc56baebc147a42a4f1a8742d85e355e37f284c17866228b178f4bfc234a5ff7b807cca0907a189a1d6309159e50c112a9e82cabfc4c1f8.js"
+    integrity="sha512-efsrYxlQWf2/xWuuvBR6QqTxqHQtheNV438oTBeGYiixePS/wjSl/3uAfMoJB6GJodYwkVnlDBEqnoLKv8TB&#43;A=="
+  ></script>
 
 
 
@@ -192,6 +205,16 @@
     
     <p class="text-base font-medium" title="">
         Tech
+    </p>
+</a>
+
+
+            
+            
+  <a href="/youtubevanced/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        Youtube
     </p>
 </a>
 
@@ -402,6 +425,20 @@
         
         <p class="text-bg font-bg" title="">
             Tech
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/youtubevanced/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Youtube
         </p>
     </a>
 </li>
@@ -626,7 +663,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-06-22 00:00:00 &#43;0000 UTC">22 June 2023</time><span class="px-2 text-primary-500">&middot;</span><span>965 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+  <time datetime="2023-06-22 00:00:00 &#43;0000 UTC">22 June 2023</time><span class="px-2 text-primary-500">&middot;</span><span>967 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
   
 
   
@@ -852,40 +889,45 @@
     
 </h1>
 <p>Arch Linux allows you full control over partitioning your disk. Depending on your preferences and system requirements, you can use tools like <code>fdisk</code> or <code>cfdisk</code> to create partitions. I will showing you the cfdisk mathod:</p>
-<pre tabindex="0"><code class="language-mermaid" data-lang="mermaid">
+<div class="mermaid" align="center">
+  
 %%{
-  init: {
-    &#39;theme&#39;: &#39;base&#39;,
-    &#39;themeVariables&#39;: {
-      &#39;primaryColor&#39;: &#39;#006100&#39;,
-      &#39;primaryTextColor&#39;: &#39;#fff&#39;,
-      &#39;primaryBorderColor&#39;: &#39;#7C0000&#39;,
-      &#39;lineColor&#39;: &#39;#F8B229&#39;,
-      &#39;secondaryColor&#39;: &#39;#006100&#39;,
-      &#39;tertiaryColor&#39;: &#39;#fff&#39;
-    }
-  }
+          init: {
+            'theme': 'base',
+            'themeVariables': {
+              'primaryColor': '#C1BDDB',
+              'primaryTextColor': '#000',
+              'primaryBorderColor': '#35C4B6',
+              'lineColor': '#58FCEC',
+              'secondaryColor': '#006100',
+              'tertiaryColor': '#fff'
+            }
+          }
 }%%
 flowchart LR
-A[cfdisk] --&gt; B{select &#39;gpt&#39; option}    
-B --&gt; C(&#34;`select the free space`&#34;)    
-C --&gt; D{&#34;`make 3 partition
+A[cfdisk] --> B{select 'gpt' option}    
+B --> C("`select the free space`")    
+C --> D{"`make 3 partition
 
-.`&#34;}
-D --&gt; E(&#34;`make &#39;600M&#39; partion type 
-is &#39;EFI System&#39;`&#34;)
-D --&gt; root(&#34;`Give space as much as 
+.`"}
+D --> E("`make '600M' partion type 
+is 'EFI System'`")
+D --> root("`Give space as much as 
 you want storage for 
 making root directory 
-type would be &#39;linux file system&#39;   .
+type would be 'linux file system'   .
 
-.`&#34;)
-D --&gt; swap(&#34;`Last you have to give 
+.`")
+D --> swap("`Last you have to give 
 all left space to swap partition 
 give double of you ram size
 
-.`&#34;)
-</code></pre>
+.`")
+
+
+</div>
+
+
 
 <h1 class="relative group">Step 5: Change the file systems 
     <div id="step-5-change-the-file-systems" class="anchor"></div>
@@ -899,7 +941,7 @@ give double of you ram size
 </h1>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkfs.vfat /dev/sda2 <span class="c1"># EFI system</span>
 </span></span><span class="line"><span class="cl">mkfs.ext4 /dev/sda1 <span class="c1">#Root partion </span>
-</span></span><span class="line"><span class="cl">mkswap /dev/sda3 <span class="o">&amp;&amp;</span> swapon /dev/sda3 <span class="c1">#swap partition</span>
+</span></span><span class="line"><span class="cl">mkswap /dev/sda3
 </span></span></code></pre></div>
 
 <h1 class="relative group">Step 6: Mounting the File Systems 
@@ -914,6 +956,9 @@ give double of you ram size
 </h1>
 <p>Mount the root partition to the <code>/mnt</code> directory using the <code>mount</code> command. Additionally, if you have separate partitions for other directories like <code>/home</code>, <code>/boot</code>, or <code>/var</code>, mount them accordingly.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mount /dev/sda1 /mnt
+</span></span><span class="line"><span class="cl">mkdir /mnt/boot
+</span></span><span class="line"><span class="cl">mount /dev/sda2 /mnt/boot
+</span></span><span class="line"><span class="cl">swapon /dev/sda3
 </span></span></code></pre></div>
 
 <h1 class="relative group">Step 7: Installing the Base System 
@@ -1108,10 +1153,6 @@ give double of you ram size
     prasanthrangan</a></strong></em></p>
 <video style="width:100%" controls src="https://user-images.githubusercontent.com/106020512/235429801-e8b8dae2-c1ad-4e23-9aa2-b1edb6cabe99.mp4" type="video/mp4">
 </video>
-<script type="module">
-import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-mermaid.initialize({ startOnLoad: true });
-</script>
 
         </div>
         

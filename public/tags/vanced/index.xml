@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vanced on Takara</title>
+    <link>//localhost:1313/tags/vanced/</link>
+    <description>Recent content in Vanced on Takara</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Yougraj</copyright>
+    <lastBuildDate>Thu, 22 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/vanced/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Youtube Vanced</title>
+      <link>//localhost:1313/youtubevanced/</link>
+      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/youtubevanced/</guid>
+      <description>YoutubeVanced 19.11.43 # Download Patcher
+Alternative thumbnails Always repeat Announcements Bypass URL redirects Change start page Comments Copy video URL Custom player overlay opacity Disable auto captions Disable fullscreen ambient mode Disable player popup panels Disable precise seeking gesture Disable resuming Shorts on startup Disable rolling number animations Disable suggested video end screen Disable zoom haptics Downloads Enable debugging Enable tablet layout GmsCore support Hide Shorts components Hide ads Hide album cards Hide autoplay button Hide captions button Hide cast button Hide crowdfunding box Hide endscreen cards Hide filter bar Hide floating microphone button Hide info cards Hide layout components Hide player buttons Hide seekbar Hide timestamp Hide video action buttons Minimized playback Navigation buttons Open links externally Playback speed Player flyout menu Remember video quality Remove tracking query parameter Remove viewer discretion dialog Restore old seekbar thumbnails Restore old video quality menu Return YouTube Dislike Seekbar tapping SponsorBlock Spoof app version Spoof client Spoof device dimensions Swipe controls Tablet mini player Theme Video ads Wide searchbar # YoutubeVanced 19.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -20,7 +20,8 @@ NixOS is a Linux distribution renowned for its unique approach to package manage
         sudo su
         ```
     * Follow the flowchart given bellow for disk partitioning
-        ```mermaid
+
+{{< mermaid >}}
                 
         %%{
           init: {
@@ -54,38 +55,39 @@ NixOS is a Linux distribution renowned for its unique approach to package manage
         give double of you ram size
 
         .`")
-        ```
-    * Changing the file system 
-        ```bash
-        mkfs.fat -F 32 -n boot /dev/sda2 # EFI system
-        mkfs.ext4 -L nixos /dev/sda1 #Root partion 
-        mkswap -L swap /dev/sda3 #swap partition
-        ```
-        If you wana see you disk name `lablk`
-    * Let's mount the system
-        Mount the Root partion
-        ```bash
-        mount /dev/disk/by-label/nixos /mnt 
-        ```
-        Mount the UEFI system
-        ```bash
-        mkdir -p /mnt/boot
-        mount /dev/disk/by-label/boot /mnt/boot
-        ```
-        Now on swap
-        ```bash
-        swapon /dev/sda3
-        ```
-    * Now you have to generate nixos config 
-        ```bash
-        nixos-generate-config --root /mnt
-        ```
-    * Your system is ready now just one thing to go
-        ```bash
-        nixos-install
-        # then
-        reboot
-        ```
+{{< /mermaid >}}
+    * Changing the file system
+```bash
+mkfs.fat -F 32 -n boot /dev/sda2 # EFI system
+mkfs.ext4 -L nixos /dev/sda1 #Root partion 
+mkswap -L swap /dev/sda3 #swap partition
+```
+If you wana see you disk name `lablk`
+* Let's mount the system
+
+   Mount the Root partion
+```bash
+mount /dev/disk/by-label/nixos /mnt 
+```
+   Mount the UEFI system
+```bash
+mkdir -p /mnt/boot
+mount /dev/disk/by-label/boot /mnt/boot
+```
+   Now on swap
+```bash
+swapon /dev/sda3
+```
+   * Now you have to generate nixos config 
+```bash
+nixos-generate-config --root /mnt
+```
+ * Your system is ready now just one thing to go
+```bash
+nixos-install
+# then
+reboot
+```
 
 ## Post-Installation Configuration 
 Once you're logged into NixOS, you can further customize your system by modifying the NixOS configuration file (`/etc/nixos/configuration.nix`). Make any desired changes and run `sudo nixos-rebuild switch` to apply the new configuration.
@@ -93,10 +95,5 @@ Once you're logged into NixOS, you can further customize your system by modifyin
 
 That's it! You now have NixOS installed on your computer. Remember that NixOS has a unique approach to package management and system configuration, so it may take some time to familiarize yourself with its concepts and workflows. The NixOS [documentation](https://nixos.org/manual/nixos/stable) is an excellent resource for further exploration and understanding of the distribution.
 
-
-<script type="module">
-import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-mermaid.initialize({ startOnLoad: true });
-</script>
 
 

@@ -32,20 +32,20 @@ After booting into the Arch Linux live environment, you will be greeted with a c
 
 Arch Linux allows you full control over partitioning your disk. Depending on your preferences and system requirements, you can use tools like `fdisk` or `cfdisk` to create partitions. I will showing you the cfdisk mathod: 
 
-```mermaid
 
+{{< mermaid >}}
 %%{
-  init: {
-    'theme': 'base',
-    'themeVariables': {
-      'primaryColor': '#006100',
-      'primaryTextColor': '#fff',
-      'primaryBorderColor': '#7C0000',
-      'lineColor': '#F8B229',
-      'secondaryColor': '#006100',
-      'tertiaryColor': '#fff'
-    }
-  }
+          init: {
+            'theme': 'base',
+            'themeVariables': {
+              'primaryColor': '#C1BDDB',
+              'primaryTextColor': '#000',
+              'primaryBorderColor': '#35C4B6',
+              'lineColor': '#58FCEC',
+              'secondaryColor': '#006100',
+              'tertiaryColor': '#fff'
+            }
+          }
 }%%
 flowchart LR
 A[cfdisk] --> B{select 'gpt' option}    
@@ -67,14 +67,14 @@ give double of you ram size
 
 .`")
 
-```
+{{< /mermaid >}}
 
 # Step 5: Change the file systems
 
 ```bash
 mkfs.vfat /dev/sda2 # EFI system
 mkfs.ext4 /dev/sda1 #Root partion 
-mkswap /dev/sda3 && swapon /dev/sda3 #swap partition
+mkswap /dev/sda3
 ```
 
 # Step 6: Mounting the File Systems
@@ -83,6 +83,9 @@ Mount the root partition to the `/mnt` directory using the `mount` command. Addi
 
 ```bash
 mount /dev/sda1 /mnt
+mkdir /mnt/boot
+mount /dev/sda2 /mnt/boot
+swapon /dev/sda3
 ```
 
 # Step 7: Installing the Base System
@@ -199,9 +202,3 @@ You can use a great hyprland config from ***[prasanthrangan](https://github.com/
 
 <video style="width:100%" controls src="https://user-images.githubusercontent.com/106020512/235429801-e8b8dae2-c1ad-4e23-9aa2-b1edb6cabe99.mp4" type="video/mp4">
 </video>
-
-<script type="module">
-import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-mermaid.initialize({ startOnLoad: true });
-</script>
-
