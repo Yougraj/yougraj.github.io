@@ -7,7 +7,7 @@ tags: ["Youtube", "Vanced", "YoutubeVanced"]
 
 # YoutubeVanced 19.11.43
 
-{{< button href="https://github.com/Yougraj/youtube-vanced/releases/download/19.11.43/youtube-revanced_v19.11.43-patches_v4.7.0.apk" target="_self" >}}
+{{< button href="https://github.com/Yougraj/youtube-vanced/releases/download/19.11.43/ytrevanced-revanced_v19.11.43-patches_v4.8.2.apk" target="_self" >}}
 Download
 {{< /button >}}
 
