@@ -36,7 +36,6 @@ Download
 - Hide Shorts components
 - Hide ads
 - Hide album cards
-- Hide autoplay button
 - Hide captions button
 - Hide cast button
 - Hide crowdfunding box
