@@ -11,7 +11,7 @@ tags: ["YoutubeVanced"]
 Download
 {{< /button >}}
 
-**Patcher**
+**Patches**
 
 - Alternative thumbnails
 - Always repeat
@@ -78,7 +78,7 @@ Download
 Download
 {{< /button >}}
 
-**Patcher**
+**Patches**
 
 - Alternative thumbnails
 - Always repeat
@@ -144,7 +144,7 @@ Download
 Download
 {{< /button >}}
 
-**Patcher**
+**Patches**
 
 - Alternative thumbnails
 - Always repeat
