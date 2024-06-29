@@ -10,16 +10,6 @@
     <lastBuildDate>Fri, 23 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/nixos-installation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nixos Installation Guide</title>
-      <link>//localhost:1313/posts/nixos-installation-guide/</link>
-      <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/posts/nixos-installation-guide/</guid>
-      <description>What is NixOs # NixOS is a Linux distribution renowned for its unique approach to package management and system configuration. It employs a purely functional package management system that ensures reproducibility and eliminates version conflicts.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/nixos-installation-guide/cover.png" />
-    </item>
-    
-    <item>
-      <title>Nixos Installation Guide</title>
       <link>//localhost:1313/tech/nixos-installation-guide/</link>
       <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
       
