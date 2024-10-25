@@ -44,4 +44,4 @@ tags: ["Wallpaper", "Mobile wallpaper", "Desktop wallpaper"]
 <img src="Mobile/37.jpg" class="grid-w33" />
 <img src="Mobile/38.jpg" class="grid-w33" />
 <img src="Mobile/39.jpg" class="grid-w33" />
-{{<gallery >}}
+{{< /gallery >}}
