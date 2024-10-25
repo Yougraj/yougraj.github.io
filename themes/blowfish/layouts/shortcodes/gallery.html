@@ -1,20 +1,4 @@
-<!-- {{ $id := delimit (slice "gallery" (partial "functions/uid.html" .)) "-" }} -->
-<!---->
-<!-- <div id="{{ $id }}" class="gallery"> -->
-<!--   {{ .Inner }} -->
-<!-- </div> -->
-<!---->
-<!---->
-<!---->
-<!---->
 {{ $id := delimit (slice "gallery" (partial "functions/uid.html" .)) "-" }}
 
-<div id="{{ $id }}" class="gallery">
-  {{ range .Inner }}
-  <div class="gallery-item">
-    <img src="{{ .Src }}" alt="{{ .Alt }}" />
-    <button class="download-btn">Download</button>
-  </div>
-  {{ end }}
-</div>
+<div id="{{ $id }}" class="gallery">{{ .Inner }}</div>
 
