@@ -39,9 +39,4 @@ tags: ["Wallpaper", "Mobile wallpaper", "Desktop wallpaper"]
 <img src="/wallpaper/Mobile/32.jpg" class="grid-w100 md:grid-w33 xl:grid-w25" />
 <img src="/wallpaper/Mobile/33.jpg" class="grid-w100 md:grid-w33 xl:grid-w25" />
 <img src="/wallpaper/Mobile/34.jpg" class="grid-w100 md:grid-w33 xl:grid-w25" />
-<img src="/wallpaper/Mobile/35.jpg" class="grid-w100 md:grid-w33 xl:grid-w25" />
-<img src="/wallpaper/Mobile/36.jpg" class="grid-w100 md:grid-w33 xl:grid-w25" />
-<img src="/wallpaper/Mobile/37.jpg" class="grid-w100 md:grid-w33 xl:grid-w25" />
-<img src="/wallpaper/Mobile/38.jpg" class="grid-w100 md:grid-w33 xl:grid-w25" />
-<img src="/wallpaper/Mobile/39.jpg" class="grid-w100 md:grid-w33 xl:grid-w25" />
 {{< /gallery >}}
