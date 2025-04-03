@@ -6,7 +6,7 @@
     <description>Recent content in Arch on Takara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 Yougraj</copyright>
+    <copyright>© 2025 Yougraj</copyright>
     <lastBuildDate>Thu, 22 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/arch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to install Arch linux</title>
@@ -14,7 +14,17 @@
       <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/tech/how-to-install-arch-linux/</guid>
-      <description>Lets start # In the world of Linux distributions, Arch Linux stands tall as a minimalist, flexible, and powerful operating system that caters to the preferences of experienced users. Installing Arch Linux is a rite of passage for those seeking to gain a deeper understanding of the inner workings of Linux and customize their system to their heart&amp;rsquo;s content.</description>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Lets start 
+    &lt;div id=&#34;lets-start&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#lets-start&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+&lt;p&gt;In the world of Linux distributions, Arch Linux stands tall as a minimalist, flexible, and powerful operating system that caters to the preferences of experienced users. Installing Arch Linux is a rite of passage for those seeking to gain a deeper understanding of the inner workings of Linux and customize their system to their heart&amp;rsquo;s content. In this blog post, we will embark on an adventure together, walking you through the steps to install Arch Linux and unlock the full potential of this remarkable distribution. If you are not linux geek like me then you can also installing via installing script but that’s not a fun way to install archlinux so lets start our Journay:&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/tech/how-to-install-arch-linux/cover.png" />
     </item>
     

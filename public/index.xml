@@ -6,15 +6,140 @@
     <description>Recent content on Takara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 Yougraj</copyright>
-    <lastBuildDate>Sat, 29 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 Yougraj</copyright>
+    <lastBuildDate>Thu, 03 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Youtube Vanced</title>
+      <link>//localhost:1313/youtubevanced/</link>
+      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/youtubevanced/</guid>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;YoutubeVanced 19.47.53 
+    &lt;div id=&#34;youtubevanced-194753&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#youtubevanced-194753&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  href=&#34;https://github.com/Yougraj/youtube-vanced/releases/download/19.47.53/YT.apk&#34;
+  target=&#34;_self&#34;
+  role=&#34;button&#34;
+&gt;
+  
+Download
+
+&lt;/a&gt;
+
+&lt;p&gt;&lt;strong&gt;Patches&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Alternative thumbnails&lt;/li&gt;
+&lt;li&gt;Always repeat&lt;/li&gt;
+&lt;li&gt;Announcements&lt;/li&gt;
+&lt;li&gt;Bypass URL redirects&lt;/li&gt;
+&lt;li&gt;Change start page&lt;/li&gt;
+&lt;li&gt;Comments&lt;/li&gt;
+&lt;li&gt;Copy video URL&lt;/li&gt;
+&lt;li&gt;Custom player overlay opacity&lt;/li&gt;
+&lt;li&gt;Disable auto captions&lt;/li&gt;
+&lt;li&gt;Disable fullscreen ambient mode&lt;/li&gt;
+&lt;li&gt;Disable player popup panels&lt;/li&gt;
+&lt;li&gt;Disable precise seeking gesture&lt;/li&gt;
+&lt;li&gt;Disable resuming Shorts on startup&lt;/li&gt;
+&lt;li&gt;Disable rolling number animations&lt;/li&gt;
+&lt;li&gt;Disable suggested video end screen&lt;/li&gt;
+&lt;li&gt;Disable zoom haptics&lt;/li&gt;
+&lt;li&gt;Downloads&lt;/li&gt;
+&lt;li&gt;Enable debugging&lt;/li&gt;
+&lt;li&gt;Enable tablet layout&lt;/li&gt;
+&lt;li&gt;GmsCore support&lt;/li&gt;
+&lt;li&gt;Hide Shorts components&lt;/li&gt;
+&lt;li&gt;Hide ads&lt;/li&gt;
+&lt;li&gt;Hide album cards&lt;/li&gt;
+&lt;li&gt;Hide captions button&lt;/li&gt;
+&lt;li&gt;Hide cast button&lt;/li&gt;
+&lt;li&gt;Hide crowdfunding box&lt;/li&gt;
+&lt;li&gt;Hide endscreen cards&lt;/li&gt;
+&lt;li&gt;Hide filter bar&lt;/li&gt;
+&lt;li&gt;Hide floating microphone button&lt;/li&gt;
+&lt;li&gt;Hide info cards&lt;/li&gt;
+&lt;li&gt;Hide layout components&lt;/li&gt;
+&lt;li&gt;Hide player buttons&lt;/li&gt;
+&lt;li&gt;Hide seekbar&lt;/li&gt;
+&lt;li&gt;Hide timestamp&lt;/li&gt;
+&lt;li&gt;Hide video action buttons&lt;/li&gt;
+&lt;li&gt;Minimized playback&lt;/li&gt;
+&lt;li&gt;Navigation buttons&lt;/li&gt;
+&lt;li&gt;Open links externally&lt;/li&gt;
+&lt;li&gt;Playback speed&lt;/li&gt;
+&lt;li&gt;Player flyout menu&lt;/li&gt;
+&lt;li&gt;Remember video quality&lt;/li&gt;
+&lt;li&gt;Remove tracking query parameter&lt;/li&gt;
+&lt;li&gt;Remove viewer discretion dialog&lt;/li&gt;
+&lt;li&gt;Restore old seekbar thumbnails&lt;/li&gt;
+&lt;li&gt;Restore old video quality menu&lt;/li&gt;
+&lt;li&gt;Return YouTube Dislike&lt;/li&gt;
+&lt;li&gt;Seekbar tapping&lt;/li&gt;
+&lt;li&gt;SponsorBlock&lt;/li&gt;
+&lt;li&gt;Spoof app version&lt;/li&gt;
+&lt;li&gt;Spoof client&lt;/li&gt;
+&lt;li&gt;Spoof device dimensions&lt;/li&gt;
+&lt;li&gt;Swipe controls&lt;/li&gt;
+&lt;li&gt;Tablet mini player&lt;/li&gt;
+&lt;li&gt;Theme&lt;/li&gt;
+&lt;li&gt;Video ads&lt;/li&gt;
+&lt;li&gt;Wide searchbar&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h1 class=&#34;relative group&#34;&gt; 
+    &lt;div id=&#34;&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+
+
+&lt;h1 class=&#34;relative group&#34;&gt;YoutubeVanced 19.16.39 
+    &lt;div id=&#34;youtubevanced-191639&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#youtubevanced-191639&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+&lt;a
+  class=&#34;!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700&#34;
+  href=&#34;https://github.com/Yougraj/youtube-vanced/releases/download/19.16.39/youtube-revanced_v19.16.39.apk&#34;
+  target=&#34;_self&#34;
+  role=&#34;button&#34;
+&gt;
+  
+Download
+
+&lt;/a&gt;
+
+&lt;p&gt;&lt;strong&gt;Patches&lt;/strong&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>Bridging Tradition and Compassion Promoting Animal Rights in Traditional Communites</title>
       <link>//localhost:1313/posts/bridging-tradition-and-compassion-promoting-animal-rights-in-traditional-communites/</link>
       <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/bridging-tradition-and-compassion-promoting-animal-rights-in-traditional-communites/</guid>
-      <description>বিশ্বৰ পৰম্পৰাগত সম্প্ৰদায়সমূহত মানুহ আৰু জীৱ-জন্তুৰ মাজৰ সম্পৰ্ক সাংস্কৃতিক প্ৰথা, আচাৰ-ব্যৱহাৰ আৰু জীৱিকাৰ মাজত গভীৰভাৱে শিপাই আছে। এই ৰীতি-নীতিবোৰে প্ৰায়ে প্ৰকৃতিৰ প্ৰতি গভীৰ শ্ৰদ্ধা আৰু সকলো জীৱৰ আন্তঃসংযোগ প্ৰতিফলিত কৰিলেও জীৱ-জন্তুৰ কল্যাণ আৰু অধিকাৰৰ লগত আপোচ কৰা প্ৰথাকো স্থায়ী কৰি ৰাখিব পাৰে। আমি পশুৰ অধিকাৰৰ প্ৰতি অধিক সজাগতা আৰু সন্মান বৃদ্ধিৰ বাবে চেষ্টা কৰাৰ সময়ত পৰম্পৰাগত সম্প্ৰদায়সমূহৰ সৈতে এনেদৰে জড়িত হোৱাটো অতি প্ৰয়োজনীয় যিয়ে তেওঁলোকৰ সাংস্কৃতিক ঐতিহ্যক স্বীকাৰ কৰে আৰু লগতে জীৱ-জন্তুৰ প্ৰতি নৈতিক ব্যৱহাৰ আৰু দয়ালু পৰিচালনাৰ পোষকতা কৰে।</description>
+      <description>&lt;p&gt;বিশ্বৰ পৰম্পৰাগত সম্প্ৰদায়সমূহত মানুহ আৰু জীৱ-জন্তুৰ মাজৰ সম্পৰ্ক সাংস্কৃতিক প্ৰথা, আচাৰ-ব্যৱহাৰ আৰু জীৱিকাৰ মাজত গভীৰভাৱে শিপাই আছে।  এই ৰীতি-নীতিবোৰে প্ৰায়ে প্ৰকৃতিৰ প্ৰতি গভীৰ শ্ৰদ্ধা আৰু সকলো জীৱৰ আন্তঃসংযোগ প্ৰতিফলিত কৰিলেও জীৱ-জন্তুৰ কল্যাণ আৰু অধিকাৰৰ লগত আপোচ কৰা প্ৰথাকো স্থায়ী কৰি ৰাখিব পাৰে।  আমি পশুৰ অধিকাৰৰ প্ৰতি অধিক সজাগতা আৰু সন্মান বৃদ্ধিৰ বাবে চেষ্টা কৰাৰ সময়ত পৰম্পৰাগত সম্প্ৰদায়সমূহৰ সৈতে এনেদৰে জড়িত হোৱাটো অতি প্ৰয়োজনীয় যিয়ে তেওঁলোকৰ সাংস্কৃতিক ঐতিহ্যক স্বীকাৰ কৰে আৰু লগতে জীৱ-জন্তুৰ প্ৰতি নৈতিক ব্যৱহাৰ আৰু দয়ালু পৰিচালনাৰ পোষকতা কৰে।&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/bridging-tradition-and-compassion-promoting-animal-rights-in-traditional-communites/cover.png" />
     </item>
     
@@ -24,7 +149,7 @@
       <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/protecting-innocence-addressing-the-impact-of-violence-in-mass-media-on-children/</guid>
-      <description>টেলিভিছন, চিনেমা, ভিডিঅ’ গেম, অনলাইন বিষয়বস্তুকে ধৰি গণমাধ্যমত হিংসাৰ ব্যাপক উপস্থিতিয়ে শিশুৰ মংগল আৰু বিকাশৰ ওপৰত ইয়াৰ সম্ভাৱ্য প্ৰভাৱৰ বিষয়ে উদ্বেগ প্ৰকাশ কৰিছে। যুৱ মনবোৰ হিংসা আৰু আক্ৰমণাত্মকতাৰ চিত্ৰাংকিত ছবিৰ সন্মুখীন হোৱাৰ লগে লগে তেওঁলোকৰ আৱেগিক স্বাস্থ্য, জ্ঞানমূলক বিকাশ আৰু সামাজিক আচৰণৰ বাবে ইয়াৰ পৰিণতিৰ বিষয়ে প্ৰশ্ন উত্থাপন হয়। এই জটিল বিষয়টোৰ সমাধানৰ ক্ষেত্ৰত শিশুৰ ওপৰত সংবাদ মাধ্যমৰ গভীৰ প্ৰভাৱক চিনি পোৱা আৰু হিংসাত্মক বিষয়বস্তুৰ নেতিবাচক প্ৰভাৱ কমোৱাৰ বাবে সক্ৰিয় পদক্ষেপ লোৱাটো অতি প্ৰয়োজনীয়।</description>
+      <description>&lt;p&gt;টেলিভিছন, চিনেমা, ভিডিঅ’ গেম, অনলাইন বিষয়বস্তুকে ধৰি গণমাধ্যমত হিংসাৰ ব্যাপক উপস্থিতিয়ে শিশুৰ মংগল আৰু বিকাশৰ ওপৰত ইয়াৰ সম্ভাৱ্য প্ৰভাৱৰ বিষয়ে উদ্বেগ প্ৰকাশ কৰিছে।  যুৱ মনবোৰ হিংসা আৰু আক্ৰমণাত্মকতাৰ চিত্ৰাংকিত ছবিৰ সন্মুখীন হোৱাৰ লগে লগে তেওঁলোকৰ আৱেগিক স্বাস্থ্য, জ্ঞানমূলক বিকাশ আৰু সামাজিক আচৰণৰ বাবে ইয়াৰ পৰিণতিৰ বিষয়ে প্ৰশ্ন উত্থাপন হয়।  এই জটিল বিষয়টোৰ সমাধানৰ ক্ষেত্ৰত শিশুৰ ওপৰত সংবাদ মাধ্যমৰ গভীৰ প্ৰভাৱক চিনি পোৱা আৰু হিংসাত্মক বিষয়বস্তুৰ নেতিবাচক প্ৰভাৱ কমোৱাৰ বাবে সক্ৰিয় পদক্ষেপ লোৱাটো অতি প্ৰয়োজনীয়।&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/protecting-innocence-addressing-the-impact-of-violence-in-mass-media-on-children/cover.jpg" />
     </item>
     
@@ -34,7 +159,7 @@
       <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/unveiling-tv-hypocrisy-alcohol-advertising-and-beyond/</guid>
-      <description>Televisionএ মনোৰঞ্জন আৰু তথ্য প্ৰচাৰৰ বাবে এক শক্তিশালী মাধ্যম হিচাপে কাম কৰে যদিও বিজ্ঞাপনৰ ক্ষেত্ৰতো ই এক আমনিদায়ক দ্বৈত মানদণ্ড প্ৰতিফলিত কৰে। নেটৱৰ্কসমূহে প্ৰায়ে সামাজিক দায়বদ্ধতাক অগ্ৰাধিকাৰ দিয়া আৰু নৈতিক মানদণ্ড ৰক্ষা কৰা বুলি দাবী কৰিলেও ব্যক্তি আৰু সমাজৰ ওপৰত ক্ষতিকাৰক প্ৰভাৱ পেলাব পৰা মদ্যপান আৰু অন্যান্য সামগ্ৰীৰ বিজ্ঞাপন সহজেই গ্ৰহণ কৰে। Televisionৰ বিজ্ঞাপনত এই ভণ্ডামীতাই নৈতিক নীতিৰ প্ৰতি উদ্যোগটোৰ দায়বদ্ধতা আৰু দৰ্শকৰ মংগলৰ ওপৰত প্ৰশ্ন উত্থাপন কৰে।</description>
+      <description>&lt;p&gt;Televisionএ মনোৰঞ্জন আৰু তথ্য প্ৰচাৰৰ বাবে এক শক্তিশালী মাধ্যম হিচাপে কাম কৰে যদিও বিজ্ঞাপনৰ ক্ষেত্ৰতো ই এক আমনিদায়ক দ্বৈত মানদণ্ড প্ৰতিফলিত কৰে।  নেটৱৰ্কসমূহে প্ৰায়ে সামাজিক দায়বদ্ধতাক অগ্ৰাধিকাৰ দিয়া আৰু নৈতিক মানদণ্ড ৰক্ষা কৰা বুলি দাবী কৰিলেও ব্যক্তি আৰু সমাজৰ ওপৰত ক্ষতিকাৰক প্ৰভাৱ পেলাব পৰা মদ্যপান আৰু অন্যান্য সামগ্ৰীৰ বিজ্ঞাপন সহজেই গ্ৰহণ কৰে।  Televisionৰ বিজ্ঞাপনত এই ভণ্ডামীতাই নৈতিক নীতিৰ প্ৰতি উদ্যোগটোৰ দায়বদ্ধতা আৰু দৰ্শকৰ মংগলৰ ওপৰত প্ৰশ্ন উত্থাপন কৰে।&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/unveiling-tv-hypocrisy-alcohol-advertising-and-beyond/cover.jpg" />
     </item>
     
@@ -44,7 +169,7 @@
       <pubDate>Thu, 09 May 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/beyond-the-gadgets-the-human-essence-in-the-age-of-technology/</guid>
-      <description>Steve jobs এ কৈছিল &amp;ldquo;Technology alone is not enough&amp;rdquo;। এই অনুভূতিয়ে উদ্ভাৱনৰ কৰিডৰত প্রতিধ্বনিৰ সৃষ্টি কৰে, প্ৰযুক্তি কেৱল মাত্ৰ কোনো আহিলা নহয় বৰঞ্চ মানুহৰ সৃষ্টিশীলতা আৰু প্ৰগতিৰ বাবে কেনভাছ। আমি যেতিয়া &amp;ldquo;device and technology&amp;rdquo; বিষয়টোলৈ সোমাই আহিছোৱেই আহক আমি এই যন্ত্ৰবোৰে আমাৰ জীৱনক কেনেকৈ গঢ় দিয়ে, আমাৰ পাৰস্পৰিক ক্ৰিয়া কলাপক পুনৰ সজ্ঞায়িত কৰে আৰু প্ৰযুক্তিগত উন্নতিৰ সুভাৰে জতিলভাবে কোৱা ভৱিষ্যত আগজাননী দিয়ে।</description>
+      <description>&lt;p&gt;Steve jobs এ কৈছিল &amp;ldquo;Technology alone is not enough&amp;rdquo;। এই অনুভূতিয়ে উদ্ভাৱনৰ কৰিডৰত প্রতিধ্বনিৰ সৃষ্টি কৰে, প্ৰযুক্তি কেৱল মাত্ৰ কোনো আহিলা নহয় বৰঞ্চ মানুহৰ সৃষ্টিশীলতা আৰু প্ৰগতিৰ বাবে কেনভাছ। আমি যেতিয়া &amp;ldquo;device and technology&amp;rdquo; বিষয়টোলৈ সোমাই আহিছোৱেই আহক আমি এই যন্ত্ৰবোৰে আমাৰ জীৱনক কেনেকৈ গঢ় দিয়ে, আমাৰ পাৰস্পৰিক ক্ৰিয়া কলাপক পুনৰ সজ্ঞায়িত কৰে আৰু প্ৰযুক্তিগত উন্নতিৰ সুভাৰে জতিলভাবে কোৱা ভৱিষ্যত আগজাননী দিয়ে।&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/beyond-the-gadgets-the-human-essence-in-the-age-of-technology/cover.jpg" />
     </item>
     
@@ -54,7 +179,7 @@
       <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/surveillance-privacy-and-national-security/</guid>
-      <description>নজীৰবিহীন প্ৰযুক্তিগত উন্নতি আৰু বিকশিত নিৰাপত্তাৰ ভাবুকিৰ দ্বাৰা চিহ্নিত যুগত চোৰাংচোৱাগিৰি আৰু গোপনীয়তা আৰু ৰাষ্ট্ৰীয় নিৰাপত্তাৰ ওপৰত ইয়াৰ প্ৰভাৱক লৈ বিতৰ্ক ক্ৰমান্বয়ে জটিল হৈ পৰিছে।বিশ্বজুৰি চৰকাৰসমূহে সন্ত্ৰাসবাদ, অপৰাধ আৰু অন্যান্য ভাবুকিৰ বিৰুদ্ধে যুঁজিবলৈ Surveillance প্ৰযুক্তি ব্যৱহাৰ কৰাৰ লগে লগে ব্যক্তিগত গোপনীয়তাৰ অধিকাৰ কিমানখিনি সুৰক্ষিত হ’ব লাগে সেই সম্পৰ্কে প্ৰশ্ন উত্থাপন হয়। ৰাষ্ট্ৰীয় নিৰাপত্তাৰ স্বাৰ্থ সুৰক্ষিত কৰা আৰু গোপনীয়তাৰ মৌলিক অধিকাৰ বজাই ৰখাৰ মাজত এক সুক্ষ্ম ভাৰসাম্য অৰ্জন কৰাটোৱে উল্লেখযোগ্য প্ৰত্যাহ্বানৰ সৃষ্টি কৰে যিবোৰৰ বাবে সযতনে বিবেচনা আৰু সুক্ষ্ম নীতিগত সমাধানৰ প্ৰয়োজন।</description>
+      <description>&lt;p&gt;নজীৰবিহীন প্ৰযুক্তিগত উন্নতি আৰু বিকশিত নিৰাপত্তাৰ ভাবুকিৰ দ্বাৰা চিহ্নিত যুগত চোৰাংচোৱাগিৰি আৰু গোপনীয়তা আৰু ৰাষ্ট্ৰীয় নিৰাপত্তাৰ ওপৰত ইয়াৰ প্ৰভাৱক লৈ বিতৰ্ক ক্ৰমান্বয়ে জটিল হৈ পৰিছে।বিশ্বজুৰি চৰকাৰসমূহে সন্ত্ৰাসবাদ, অপৰাধ আৰু অন্যান্য ভাবুকিৰ বিৰুদ্ধে যুঁজিবলৈ Surveillance প্ৰযুক্তি ব্যৱহাৰ কৰাৰ লগে লগে ব্যক্তিগত গোপনীয়তাৰ অধিকাৰ কিমানখিনি সুৰক্ষিত হ’ব লাগে সেই সম্পৰ্কে প্ৰশ্ন উত্থাপন হয়।  ৰাষ্ট্ৰীয় নিৰাপত্তাৰ স্বাৰ্থ সুৰক্ষিত কৰা আৰু গোপনীয়তাৰ মৌলিক অধিকাৰ বজাই ৰখাৰ মাজত এক সুক্ষ্ম ভাৰসাম্য অৰ্জন কৰাটোৱে উল্লেখযোগ্য প্ৰত্যাহ্বানৰ সৃষ্টি কৰে যিবোৰৰ বাবে সযতনে বিবেচনা আৰু সুক্ষ্ম নীতিগত সমাধানৰ প্ৰয়োজন।&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/surveillance-privacy-and-national-security/cover.png" />
     </item>
     
@@ -64,7 +189,7 @@
       <pubDate>Fri, 03 May 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/embracing-the-promise-and-perils-of-artificial-intelligence/</guid>
-      <description>প্ৰযুক্তিগত উন্নতিৰ আধিপত্য থকা যুগত কৃত্ৰিম বুদ্ধিমত্তাৰ (AI) উত্থানে আমাৰ সমাজখনক পুনৰ গঢ় দিয়া অন্যতম পৰিৱৰ্তনশীল শক্তি হিচাপে থিয় দিছে। উৎপাদনশীলতা বৃদ্ধিৰ পৰা আৰম্ভ কৰি স্বাস্থ্যসেৱাত বৈপ্লৱিক পৰিৱৰ্তন আনিবলৈ AIৰ সম্ভাৱনা অপৰিসীম। কিন্তু এই প্ৰতিশ্ৰুতিৰ লগত আমাৰ মনোযোগৰ দাবী কৰা উল্লেখযোগ্য নৈতিক আৰু সমাজৰ বিবেচনাৰ প্ৰয়োজন।</description>
+      <description>&lt;p&gt;প্ৰযুক্তিগত উন্নতিৰ আধিপত্য থকা যুগত কৃত্ৰিম বুদ্ধিমত্তাৰ (AI) উত্থানে আমাৰ সমাজখনক পুনৰ গঢ় দিয়া অন্যতম পৰিৱৰ্তনশীল শক্তি হিচাপে থিয় দিছে।  উৎপাদনশীলতা বৃদ্ধিৰ পৰা আৰম্ভ কৰি স্বাস্থ্যসেৱাত বৈপ্লৱিক পৰিৱৰ্তন আনিবলৈ AIৰ সম্ভাৱনা অপৰিসীম।  কিন্তু এই প্ৰতিশ্ৰুতিৰ লগত আমাৰ মনোযোগৰ দাবী কৰা উল্লেখযোগ্য নৈতিক আৰু সমাজৰ বিবেচনাৰ প্ৰয়োজন।&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/embracing-the-promise-and-perils-of-artificial-intelligence/cover.png" />
     </item>
     
@@ -74,7 +199,7 @@
       <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/the-evolving-landscape-of-social-media-and-social-networking/</guid>
-      <description>আজিৰ আন্তঃসংযোগী পৃথিৱীখনত Social Media আৰু Social networking প্লেটফৰ্ম আমাৰ দৈনন্দিন জীৱনৰ অবিচ্ছেদ্য অংগ হৈ পৰিছে। বন্ধু-বান্ধৱ আৰু পৰিয়ালৰ সৈতে সংযোগ স্থাপনৰ পৰা আৰম্ভ কৰি বাতৰি আৰু তথ্য লাভ কৰালৈকে এই মঞ্চসমূহে সমাজৰ পাৰস্পৰিক ক্ৰিয়া-কলাপ আৰু বক্তৃতা গঢ় দিয়াত উল্লেখযোগ্য ভূমিকা পালন কৰে। কিন্তু এইবোৰৰ ব্যাপক প্ৰভাৱৰ লগে লগে বহুতো প্ৰত্যাহ্বান আৰু উদ্বেগ আহি পৰে যিবোৰ চিন্তাশীলভাৱে বিবেচনা কৰাৰ প্ৰয়োজন।</description>
+      <description>&lt;p&gt;আজিৰ আন্তঃসংযোগী পৃথিৱীখনত Social Media আৰু Social networking প্লেটফৰ্ম আমাৰ দৈনন্দিন জীৱনৰ অবিচ্ছেদ্য অংগ হৈ পৰিছে।  বন্ধু-বান্ধৱ আৰু পৰিয়ালৰ সৈতে সংযোগ স্থাপনৰ পৰা আৰম্ভ কৰি বাতৰি আৰু তথ্য লাভ কৰালৈকে এই মঞ্চসমূহে সমাজৰ পাৰস্পৰিক ক্ৰিয়া-কলাপ আৰু বক্তৃতা গঢ় দিয়াত উল্লেখযোগ্য ভূমিকা পালন কৰে।  কিন্তু এইবোৰৰ ব্যাপক প্ৰভাৱৰ লগে লগে বহুতো প্ৰত্যাহ্বান আৰু উদ্বেগ আহি পৰে যিবোৰ চিন্তাশীলভাৱে বিবেচনা কৰাৰ প্ৰয়োজন।&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/the-evolving-landscape-of-social-media-and-social-networking/cover.png" />
     </item>
     
@@ -84,7 +209,7 @@
       <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/wifi-crack/</guid>
-      <description>Ahoy, me hearties! Gather &amp;lsquo;round, for today we&amp;rsquo;re setting sail on a voyage filled with Wi-Fi shenanigans, aircrack-ng acrobatics, and a sprinkle of pure, unadulterated silliness. Get ready to hoist the Jolly Roger of &amp;ldquo;Wi-Foooolery&amp;rdquo; (and yes, that&amp;rsquo;s the most clever pun you&amp;rsquo;ve ever seen)!</description>
+      <description>&lt;p&gt;Ahoy, me hearties! Gather &amp;lsquo;round, for today we&amp;rsquo;re setting sail on a voyage filled with Wi-Fi shenanigans, aircrack-ng acrobatics, and a sprinkle of pure, unadulterated silliness. Get ready to hoist the Jolly Roger of &amp;ldquo;Wi-Foooolery&amp;rdquo; (and yes, that&amp;rsquo;s the most clever pun you&amp;rsquo;ve ever seen)!&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/wifi-crack/cover.png" />
     </item>
     
@@ -94,7 +219,7 @@
       <pubDate>Sat, 29 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/tech/wifi-crack/</guid>
-      <description>Ahoy, me hearties! Gather &amp;lsquo;round, for today we&amp;rsquo;re setting sail on a voyage filled with Wi-Fi shenanigans, aircrack-ng acrobatics, and a sprinkle of pure, unadulterated silliness. Get ready to hoist the Jolly Roger of &amp;ldquo;Wi-Foooolery&amp;rdquo; (and yes, that&amp;rsquo;s the most clever pun you&amp;rsquo;ve ever seen)!</description>
+      <description>&lt;p&gt;Ahoy, me hearties! Gather &amp;lsquo;round, for today we&amp;rsquo;re setting sail on a voyage filled with Wi-Fi shenanigans, aircrack-ng acrobatics, and a sprinkle of pure, unadulterated silliness. Get ready to hoist the Jolly Roger of &amp;ldquo;Wi-Foooolery&amp;rdquo; (and yes, that&amp;rsquo;s the most clever pun you&amp;rsquo;ve ever seen)!&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/tech/wifi-crack/cover.png" />
     </item>
     
@@ -104,7 +229,17 @@
       <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/tech/nixos-installation-guide/</guid>
-      <description>What is NixOs # NixOS is a Linux distribution renowned for its unique approach to package management and system configuration. It employs a purely functional package management system that ensures reproducibility and eliminates version conflicts.</description>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;What is NixOs 
+    &lt;div id=&#34;what-is-nixos&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#what-is-nixos&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+&lt;p&gt;NixOS is a Linux distribution renowned for its unique approach to package management and system configuration. It employs a purely functional package management system that ensures reproducibility and eliminates version conflicts. System configuration is achieved through declarative means, where the desired state of the system is described in a configuration file using the functional programming language Nix. This enables atomic upgrades and rollbacks of the entire system configuration. With NixOS, users gain a highly reliable and customizable Linux distribution that provides a consistent and reproducible environment.&lt;/p&gt;</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/tech/nixos-installation-guide/cover.png" />
     </item>
     
@@ -114,19 +249,18 @@
       <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/tech/how-to-install-arch-linux/</guid>
-      <description>Lets start # In the world of Linux distributions, Arch Linux stands tall as a minimalist, flexible, and powerful operating system that caters to the preferences of experienced users. Installing Arch Linux is a rite of passage for those seeking to gain a deeper understanding of the inner workings of Linux and customize their system to their heart&amp;rsquo;s content.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/tech/how-to-install-arch-linux/cover.png" />
-    </item>
+      <description>&lt;h1 class=&#34;relative group&#34;&gt;Lets start 
+    &lt;div id=&#34;lets-start&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
-    <item>
-      <title>Youtube Vanced</title>
-      <link>//localhost:1313/youtubevanced/</link>
-      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/youtubevanced/</guid>
-      <description>YoutubeVanced 19.16.39 # Download Patches
-Alternative thumbnails Always repeat Announcements Bypass URL redirects Change start page Comments Copy video URL Custom player overlay opacity Disable auto captions Disable fullscreen ambient mode Disable player popup panels Disable precise seeking gesture Disable resuming Shorts on startup Disable rolling number animations Disable suggested video end screen Disable zoom haptics Downloads Enable debugging Enable tablet layout GmsCore support Hide Shorts components Hide ads Hide album cards Hide captions button Hide cast button Hide crowdfunding box Hide endscreen cards Hide filter bar Hide floating microphone button Hide info cards Hide layout components Hide player buttons Hide seekbar Hide timestamp Hide video action buttons Minimized playback Navigation buttons Open links externally Playback speed Player flyout menu Remember video quality Remove tracking query parameter Remove viewer discretion dialog Restore old seekbar thumbnails Restore old video quality menu Return YouTube Dislike Seekbar tapping SponsorBlock Spoof app version Spoof client Spoof device dimensions Swipe controls Tablet mini player Theme Video ads Wide searchbar # YoutubeVanced 19.</description>
-      
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;
+        &lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34;
+            style=&#34;text-decoration-line: none !important;&#34; href=&#34;#lets-start&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;        
+    
+&lt;/h1&gt;
+&lt;p&gt;In the world of Linux distributions, Arch Linux stands tall as a minimalist, flexible, and powerful operating system that caters to the preferences of experienced users. Installing Arch Linux is a rite of passage for those seeking to gain a deeper understanding of the inner workings of Linux and customize their system to their heart&amp;rsquo;s content. In this blog post, we will embark on an adventure together, walking you through the steps to install Arch Linux and unlock the full potential of this remarkable distribution. If you are not linux geek like me then you can also installing via installing script but that’s not a fun way to install archlinux so lets start our Journay:&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/tech/how-to-install-arch-linux/cover.png" />
     </item>
     
   </channel>
