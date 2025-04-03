@@ -4,6 +4,12 @@ date: 2025-04-03
 tags: ["YoutubeVanced"]
 ---
 
+# Important
+
+## To use Youtube Vanced, install the latest version of GmsCore from the link below:
+
+**Install GmsCore** {{< button href="https://github.com/ReVanced/GmsCore/releases" target="_self" >}} MicroG {{< /button >}}
+
 # YoutubeVanced 19.47.53
 
 {{< button href="https://github.com/Yougraj/youtube-vanced/releases/download/19.47.53/YT.apk" target="_self" >}}
