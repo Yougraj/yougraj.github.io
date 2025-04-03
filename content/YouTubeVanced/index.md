@@ -1,6 +1,6 @@
 ---
 title: "Youtube Vanced"
-date: 2023-06-22
+date: 2025-04-03
 tags: ["YoutubeVanced"]
 ---
 
